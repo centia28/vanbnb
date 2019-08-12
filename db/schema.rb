@@ -10,10 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_12_153136) do
+ActiveRecord::Schema.define(version: 2019_08_12_153419) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "rents", force: :cascade do |t|
+    t.date "begin_date"
+    t.date "end_date"
+    t.bigint "van_id"
+    t.bigint "user_id"
+    t.string "state"
+    t.integer "total_price"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_rents_on_user_id"
+    t.index ["van_id"], name: "index_rents_on_van_id"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -45,5 +58,7 @@ ActiveRecord::Schema.define(version: 2019_08_12_153136) do
     t.index ["user_id"], name: "index_vans_on_user_id"
   end
 
+  add_foreign_key "rents", "users"
+  add_foreign_key "rents", "vans"
   add_foreign_key "vans", "users"
 end

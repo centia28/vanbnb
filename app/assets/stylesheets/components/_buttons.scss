@@ -1,0 +1,9 @@
+.btn-light-pink{
+  font-family: $default_font;
+  color: white !important;
+  background-color: $ligth-pink;
+
+  &:hover{
+    color: white;
+  }
+}

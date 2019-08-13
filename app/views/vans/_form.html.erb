@@ -1,0 +1,15 @@
+<%= simple_form_for :search, url: vans_path, method: :get do |f| %>
+  <div class="row">
+    <div class="col">
+      <%= f.input :begin_date, as: :date, class: 'form-control' %>
+    </div>
+    <div class="col">
+      <%= f.input :end_date, as: :date, class: 'form-control' %>
+    </div>
+    <div class="col">
+      <button name="button" type="submit" class="btn btn-light-pink">
+        <i class="fas fa-search"></i> Search
+      </button>
+    </div>
+    </div>
+<% end %>

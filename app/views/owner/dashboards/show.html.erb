@@ -1,0 +1,23 @@
+<div class="container text-center">
+  <%= link_to 'Add a van', new_owner_van_path, class: "btn btn-light-pink" %>
+    <h1>Mes Vans</h1>
+  <div class="container-dashboard">
+    <% @vans.each do |van| %>
+      <div class="card-trip card-smaller">
+        <%= cl_image_tag van.picture, height: 300, width: 300, crop: :fill %>
+        <div class="card-trip-infos">
+          <div>
+            <h2><%= van.title %></h2>
+            <p><%= van.brand %>, <%= van.model %> </p>
+          </div>
+          <h2 class="card-trip-pricing"><%= van.price_per_day %>€</h2>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+ 
+
+

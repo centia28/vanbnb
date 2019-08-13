@@ -1,26 +1,30 @@
 Rails.application.routes.draw do
-  devise_for :users
   root to: 'pages#home'
 
+  devise_for :users
+
+  # AS TRAVELER
   resources :vans, only: [:index, :show] do
-    post 'rents', to: 'rents#create'
+    resources :rents, only: [:create]
   end
+
+  # AS TRAVELER
   resources :rents, only: [:index, :show]
 
-  get 'profile', to: 'users#show'
+  # AS USER
+  resource :profile, only: [:show]
 
   namespace :owner do
-    get 'dashboard', to: 'dashboard#show'
+    resource :dashboard, only: [:show]
 
+    resources :vans, only: [:new, :create]
+    
     resources :rents, only: [] do
       member do
-        get 'accept'
-        get 'decline'
+        patch :accept
+        patch :decline
       end
     end
-
-    get 'vans/new', to: 'vans#new'
-    post 'vans', to: 'vans#create'
   end
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

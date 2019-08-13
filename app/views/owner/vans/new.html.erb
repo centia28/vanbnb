@@ -1,20 +1,25 @@
-<h1>Please tell me more about this van</h1>
+<div class="new-van">
+  <div class="title-new">
+    <h1>Please tell me more about this van</h1>
+  </div>
+  <div class="form-new">
+    <%= simple_form_for [:owner, @van] do |f| %>
+      <%= f.input :title %>
 
-<%= simple_form_for [:owner, @van] do |f| %>
-  <%= f.input :title %>
+      <%= f.input :description %>
 
-  <%= f.input :description %>
+      <%= f.input :price_per_day %>
 
-  <%= f.input :price_per_day %>
+      <%= f.input :model %>
 
-  <%= f.input :model %>
+      <%= f.input :brand %>
 
-  <%= f.input :brand %>
+      <%= f.input :brand %>
 
-  <%= f.input :brand %>
+      <%#= f.input :picture %>
+      <%#= f.input :picture_cache, as: :hidden %>
 
-  <%#= f.input :picture %>
-  <%#= f.input :picture_cache, as: :hidden %>
-
-  <%= f.submit %>
-<% end %>
+      <%= f.submit %>
+    <% end %>
+  </div>
+</div>

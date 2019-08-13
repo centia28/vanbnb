@@ -7,4 +7,8 @@ class User < ApplicationRecord
   has_many :vans, inverse_of: 'owner' # ?????
   has_many :rents, inverse_of: 'traveler'
   validates :first_name, :last_name, presence: true
+
+  def owner?
+    vans.count.positive?
+  end
 end

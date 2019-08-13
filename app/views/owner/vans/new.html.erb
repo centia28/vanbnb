@@ -1,25 +1,36 @@
-<div class="new-van">
-  <div class="title-new">
+<div class="text-center bg-white border-top p-5">
+  <div class="col-md-6 offset-md-3">
     <h1>Please tell me more about this van</h1>
   </div>
-  <div class="form-new">
-    <%= simple_form_for [:owner, @van] do |f| %>
-      <%= f.input :title %>
-
-      <%= f.input :description %>
-
-      <%= f.input :price_per_day %>
-
-      <%= f.input :model %>
-
-      <%= f.input :brand %>
-
-      <%= f.input :brand %>
-
-      <%#= f.input :picture %>
-      <%#= f.input :picture_cache, as: :hidden %>
-
-      <%= f.submit %>
-    <% end %>
+</div>
+<div class="container">
+  <%= simple_form_for [:owner, @van] do |f| %>
+  <div class="row mt-2">
+    <div class="col-md-6 offset-md-3">
+      <div class="card px-2 my-2">
+        <%= f.input :title, required: false %>
+      </div>
+      <div class="card px-2 my-2">
+        <%= f.input :description, required: false %>
+      </div>
+      <div class="card px-2 my-2">
+        <%= f.input :price_per_day, required: false %>
+      </div>
+      <div class="card px-2 my-2">
+        <%= f.input :model, required: false %>
+      </div>
+      <div class="card px-2 my-2">
+        <%= f.input :brand, required: false %>
+      </div>
+      <div class="card px-2 my-2">
+        <%= f.input :address %>
+      </div>
+      <div class="card px-2 my-2">
+        <%= f.input :picture %>
+        <%= f.input :picture_cache, as: :hidden %>
+      </div>
+      <%= f.submit 'create van', class: 'btn btn-primary'%>
+    </div>
   </div>
+    <% end %>
 </div>

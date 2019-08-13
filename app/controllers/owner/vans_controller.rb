@@ -4,9 +4,16 @@ class Owner::VansController < ApplicationController
   end
 
   def create
-    cocktail = Cocktail.new(cocktail_params)
-    cocktail.save
+    van = Van.new(vans_params)
+    van.owner = current_user
+    van.save
 
-    redirect_to cocktails_path
+    redirect_to vans_path
+  end
+
+  private
+
+  def vans_params
+    params.require(:van).permit(:title, :description, :price_per_day, :model, :brand, :address, :picture)
   end
 end

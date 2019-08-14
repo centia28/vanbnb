@@ -16,7 +16,33 @@
     <% end %>
   </div>
 </div>
+<div class="container text-center">
+<h1>Mes Rents</h1>
+  <% @rents.each do |rent| %>
+    <ul class="list-group">
+      <li class="list-group-item-dashboard card-product">
+        <div class="image-rent">
+        <%= cl_image_tag rent.van.picture, height: 300, width: 300, crop: :fill %>
+        </div>
+        <div class="card-product-infos">
+          <p>Request by: <%= rent.traveler.first_name %></p>
+        </div>
+        <div>
+          <p>From <%= rent.begin_date %> to <%= rent.end_date %></p>
+        </div>
+        <div class="container text-center">
+          <p>Total price: <%= rent.total_price %> €</p>
+          <p>State: <%= rent.state %></p>
 
+        </div>
+        <div class="container text-right">
+          <button type="button" class="btn btn-success">Accept</button>
+          <button type="button" class="btn btn-danger">Decline</button>
+        </div>
+      </li>
+    </ul>
+  <% end %>
+</div>
 
  
 

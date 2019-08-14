@@ -8,7 +8,7 @@ class Owner::VansController < ApplicationController
     van.owner = current_user
     van.save
 
-    redirect_to awner_dashborad_path
+    redirect_to owner_dashboard_path
   end
 
   private

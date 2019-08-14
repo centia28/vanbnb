@@ -1,2 +1,41 @@
-<h1>Vans#show</h1>
-<p>Find me in app/views/vans/show.html.erb</p>
+<div class="container">
+  <div class="show-container">
+
+    <div class="van-details">
+      <div class="van-img"
+          style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= cl_image_path @van.picture, width: 400, height: 400, crop: 'fill' %>);">
+      </div>
+
+      <div class="van-description">
+        <h2><%= @van.title %></h2>
+        <%= cl_image_tag @van.owner.picture, width: 40, height: 40, crop: 'fill', gravity: 'faces', class: "card-van-owner avatar-bordered" %>
+        <p><strong><%= @van.brand%> <%= @van.model  %> | <%= @van.address %></strong></p>
+        <p><%= @van.description %></p>
+      </div>
+    </div>
+
+    <div class="rent border">
+      <h4>Select dates to rent this van</h4>
+      <span><%= @van.price_per_day %>€/day</span>
+      <br>
+
+      <%= simple_form_for [@van,@rent] do |f| %>
+        <div class="form-col p-3">
+          <div class="form-group row">
+            <span class="mr-2"><%= f.label :begin_date, "From" %></span>
+            <%= f.input_field :begin_date %>
+          </div>
+          <div class="form-group row ">
+            <span class="mr-4"><%= f.label :end_date, "To" %></span>
+            <%= f.input_field :end_date %>
+          </div>
+          <div class="form-group row">
+            <%= f.submit "Rent the van", class: 'btn btn-light-pink' %>
+          </div>
+        </div>
+      <% end %>
+
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="vans-container">
+    <% @vans.each do |van| %>
+      <div class="van">
+        <%= link_to (render 'van-card', van: van), van_path(van) %>
+      </div>
+    <% end %>
+  </div>
+</div>

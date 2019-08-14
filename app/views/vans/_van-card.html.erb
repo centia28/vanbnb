@@ -1,0 +1,11 @@
+<div class="card-van">
+  <%= cl_image_tag van.picture, width: 400, height: 400, crop: 'fill' %>
+  <div class="card-van-infos">
+    <div>
+      <h2><%= van.title %></h2>
+      <p><%= van.brand %> <%= van.model %></p>
+    </div>
+    <h2 class="card-van-pricing"><%= van.price_per_day %>€</h2>
+    <%= cl_image_tag van.owner.picture, width: 40, height: 40, crop: 'fill', gravity: 'faces', class: "card-van-owner avatar-bordered" %>
+  </div>
+</div>

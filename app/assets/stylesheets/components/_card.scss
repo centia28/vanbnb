@@ -27,10 +27,7 @@
 }
 
 .card-van .card-van-infos {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  padding: 16px 16px 4px 16px;
   position: relative;
 
   .card-van-owner {
@@ -39,5 +36,14 @@
     top: -20px;
     width: 40px;
     height: 40px;
+  }
+}
+.card-infos{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .card-van-pricing{
+    color: $ligth-pink;
   }
 }

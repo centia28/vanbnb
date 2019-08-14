@@ -12,6 +12,8 @@
         <p><strong><%= @van.brand%> <%= @van.model  %> | <%= @van.address %></strong></p>
         <p><%= @van.description %></p>
       </div>
+
+      <%= link_to "Go back to list", vans_path, class: 'btn btn-light-pink' %>
     </div>
 
     <div class="rent border">

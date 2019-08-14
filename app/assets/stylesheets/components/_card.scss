@@ -6,6 +6,7 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
   height: 100%;
+  position: relative;
 
   img {
     height: 200px;
@@ -23,6 +24,16 @@
     font-size: 12px;
     opacity: .7;
     margin: 0;
+  }
+
+  .card-van-pricing{
+    background-color: $ligth-pink;
+    opacity: .8;
+    color: white;
+    padding: 8px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
   }
 }
 
@@ -42,8 +53,4 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-
-  .card-van-pricing{
-    color: $ligth-pink;
-  }
 }

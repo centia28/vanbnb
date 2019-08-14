@@ -4,11 +4,8 @@ class VansController < ApplicationController
   def index
     if params[:search]
       q = params[:search]
-      # TODO Stronger verification her
-      begin_date = !q[:begin_date].empty? ? Date.parse(q[:begin_date]) : Date.today
-      end_date = !q[:end_date].empty? ? Date.parse(q[:end_date]) : Date.today
 
-      @vans = Van.select { |van| van.available?(begin_date: begin_date, end_date: end_date) }
+      @vans = Van.select { |van| van.available?(end_date: Date.parse(q[:end_date]), begin_date: Date.parse(q[:begin_date])) }
     else
       @vans = Van.all
     end

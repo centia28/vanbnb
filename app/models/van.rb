@@ -10,6 +10,7 @@ class Van < ApplicationRecord
   def available?(date_range = {})
     # GUARD CLAUSE: compare on the today date if there is no range given
     # Return true if there's no rent in this range of date, false if there's
+    return true if rents.count.zero?
 
     if date_range
       start_date = date_range[:begin_date]
@@ -19,6 +20,6 @@ class Van < ApplicationRecord
       end_date = Date.today
     end
 
-    rents.all? { |rent| rent.begin_date < start_date && rent.end_date < end_date }
+    rents.all? { |rent| rent.begin_date >= end_date && rent.end_date <= start_date }
   end
 end

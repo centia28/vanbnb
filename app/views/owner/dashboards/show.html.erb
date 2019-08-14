@@ -30,7 +30,7 @@
               <%= cl_image_tag rent.traveler.picture, height: 100, width: 100, crop: :fill, gravity: :face, class: "avatar-bordered avatar-bordered-dashboard", alt: "avatar-bordered" %>
               <p class="m-0 text-center"><%= rent.traveler.first_name %></p>
             </div>
-            <p class="m-0">From <%= rent.begin_date %> to <%= rent.end_date %></p>
+            <p class="m-0">From <%= rent.begin_date.to_formatted_s(:long) %> to <%= rent.end_date.to_formatted_s(:long) %></p>
             <p class="m-0"><%= rent.total_price %> €</p>
           </div>
           <div class="text-right card-van-dashboard-status">

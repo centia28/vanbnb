@@ -1,0 +1,2680 @@
+Started GET "/" for 127.0.0.1 at 2019-08-13 15:01:00 +0200
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "vanbnb_development" does not exist
+):
+  
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-08-13 15:01:10 +0200
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "vanbnb_development" does not exist
+):
+  
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-08-13 15:01:11 +0200
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "vanbnb_development" does not exist
+):
+  
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-08-13 15:01:11 +0200
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "vanbnb_development" does not exist
+):
+  
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-08-13 15:01:12 +0200
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "vanbnb_development" does not exist
+):
+  
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (1027.1ms)[0m  [1m[35mCREATE DATABASE "vanbnb_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (672.5ms)[0m  [1m[35mCREATE DATABASE "vanbnb_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (109.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (91.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3699228786522948420)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to DeviseCreateUsers (20190812152746)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (53.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "first_name" character varying, "last_name" character varying, "phone_number" character varying, "picture" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190812152746_devise_create_users.rb:5
+  [1m[35m (25.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  ↳ db/migrate/20190812152746_devise_create_users.rb:43
+  [1m[35m (38.7ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  ↳ db/migrate/20190812152746_devise_create_users.rb:44
+  [1m[36mActiveRecord::SchemaMigration Create (1.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190812152746"]]
+  ↳ bin/rails:9
+  [1m[35m (8.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateVans (20190812153136)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (80.9ms)[0m  [1m[35mCREATE TABLE "vans" ("id" bigserial primary key, "title" character varying, "description" text, "price_per_day" integer, "user_id" bigint, "model" character varying, "brand" character varying, "picture" text, "address" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_bd83e47c9a"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  ↳ db/migrate/20190812153136_create_vans.rb:3
+  [1m[35m (43.5ms)[0m  [1m[35mCREATE  INDEX  "index_vans_on_user_id" ON "vans"  ("user_id")[0m
+  ↳ db/migrate/20190812153136_create_vans.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190812153136"]]
+  ↳ bin/rails:9
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateRents (20190812153419)
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (52.9ms)[0m  [1m[35mCREATE TABLE "rents" ("id" bigserial primary key, "begin_date" date, "end_date" date, "van_id" bigint, "user_id" bigint, "state" character varying, "total_price" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_7577a2646e"
+FOREIGN KEY ("van_id")
+  REFERENCES "vans" ("id")
+, CONSTRAINT "fk_rails_73333524d9"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  ↳ db/migrate/20190812153419_create_rents.rb:3
+  [1m[35m (25.1ms)[0m  [1m[35mCREATE  INDEX  "index_rents_on_van_id" ON "rents"  ("van_id")[0m
+  ↳ db/migrate/20190812153419_create_rents.rb:3
+  [1m[35m (27.2ms)[0m  [1m[35mCREATE  INDEX  "index_rents_on_user_id" ON "rents"  ("user_id")[0m
+  ↳ db/migrate/20190812153419_create_rents.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190812153419"]]
+  ↳ bin/rails:9
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateReviews (20190812153554)
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (53.3ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" bigserial primary key, "rating" integer, "description" text, "rent_id" bigint, "user_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_5f98dec109"
+FOREIGN KEY ("rent_id")
+  REFERENCES "rents" ("id")
+, CONSTRAINT "fk_rails_74a66bd6c5"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  ↳ db/migrate/20190812153554_create_reviews.rb:3
+  [1m[35m (25.2ms)[0m  [1m[35mCREATE  INDEX  "index_reviews_on_rent_id" ON "reviews"  ("rent_id")[0m
+  ↳ db/migrate/20190812153554_create_reviews.rb:3
+  [1m[35m (17.3ms)[0m  [1m[35mCREATE  INDEX  "index_reviews_on_user_id" ON "reviews"  ("user_id")[0m
+  ↳ db/migrate/20190812153554_create_reviews.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190812153554"]]
+  ↳ bin/rails:9
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to AddDefaultValueToStateInRents (20190812163449)
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[35mALTER TABLE "rents" ALTER COLUMN "state" TYPE character varying, ALTER COLUMN "state" SET DEFAULT 'pending'[0m
+  ↳ db/migrate/20190812163449_add_default_value_to_state_in_rents.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190812163449"]]
+  ↳ bin/rails:9
+  [1m[35m (8.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-08-13 13:02:11.404646"], ["updated_at", "2019-08-13 13:02:11.404646"]]
+  ↳ bin/rails:9
+  [1m[35m (114.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT pg_advisory_unlock(3699228786522948420)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2019-08-13 15:02:25 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+[Webpacker] Compiling…
+Started GET "/" for 127.0.0.1 at 2019-08-13 15:02:33 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/bastien/code/centia28/vanbnb/public/packs
+Completed 200 OK in 9892ms (Views: 9891.0ms | ActiveRecord: 0.0ms)
+
+
+[Webpacker] Compiled all packs in /home/bastien/code/centia28/vanbnb/public/packs
+Completed 200 OK in 2279ms (Views: 2278.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2019-08-13 15:02:42 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/vans/new" for 127.0.0.1 at 2019-08-13 15:02:52 +0200
+  
+ActionController::RoutingError (uninitialized constant VansController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/rails/info/routes?path=va," for 127.0.0.1 at 2019-08-13 15:03:09 +0200
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"va,"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=va" for 127.0.0.1 at 2019-08-13 15:03:10 +0200
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"va"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=vans" for 127.0.0.1 at 2019-08-13 15:03:11 +0200
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"vans"}
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 15:03:28 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (171.2ms)
+Completed 200 OK in 365ms (Views: 188.3ms | ActiveRecord: 17.3ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 15:09:51 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (375.6ms)
+Completed 500 Internal Server Error in 377ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+    3: <%= simple_form_for @van do |f| %>
+    4:   <%= f.input :title %>
+    5: 
+    6:   <%= f.input :description, 'Location' %>
+    7: 
+    8:   <%= f.input :price_per_day %>
+    9: 
+  
+app/views/owner/vans/new.html.erb:6:in `block in _app_views_owner_vans_new_html_erb___897599909291401853_70117402799980'
+app/views/owner/vans/new.html.erb:3:in `_app_views_owner_vans_new_html_erb___897599909291401853_70117402799980'
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 15:10:18 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+    3: <%= simple_form_for @van do |f| %>
+    4:   <%= f.input :title %>
+    5: 
+    6:   <%= f.input :description, 'Location' %>
+    7: 
+    8:   <%= f.input :price_per_day %>
+    9: 
+  
+app/views/owner/vans/new.html.erb:6:in `block in _app_views_owner_vans_new_html_erb___897599909291401853_70117411463440'
+app/views/owner/vans/new.html.erb:3:in `_app_views_owner_vans_new_html_erb___897599909291401853_70117411463440'
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 15:10:20 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+    3: <%= simple_form_for @van do |f| %>
+    4:   <%= f.input :title %>
+    5: 
+    6:   <%= f.input :description, 'Location' %>
+    7: 
+    8:   <%= f.input :price_per_day %>
+    9: 
+  
+app/views/owner/vans/new.html.erb:6:in `block in _app_views_owner_vans_new_html_erb___897599909291401853_70117398310520'
+app/views/owner/vans/new.html.erb:3:in `_app_views_owner_vans_new_html_erb___897599909291401853_70117398310520'
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 15:10:24 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (73.3ms)
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `photo' for #<Van:0x00007f8af64a5dc0>):
+    13: 
+    14:   <%= f.input :brand %>
+    15: 
+    16:   <%= f.input :photo %>
+    17:   <%= f.input :photo_cache, as: :hidden %>
+    18: 
+    19:   <%= f.submit %>
+  
+app/views/owner/vans/new.html.erb:16:in `block in _app_views_owner_vans_new_html_erb___897599909291401853_70117407138460'
+app/views/owner/vans/new.html.erb:3:in `_app_views_owner_vans_new_html_erb___897599909291401853_70117407138460'
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 15:10:34 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (18.3ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture_cache' for #<Van:0x00007f8af63501c8>
+Did you mean?  picture_change
+               picture_was):
+    14:   <%= f.input :brand %>
+    15: 
+    16:   <%= f.input :picture %>
+    17:   <%= f.input :picture_cache, as: :hidden %>
+    18: 
+    19:   <%= f.submit %>
+    20: <% end %>
+  
+app/views/owner/vans/new.html.erb:17:in `block in _app_views_owner_vans_new_html_erb___897599909291401853_70117406453840'
+app/views/owner/vans/new.html.erb:3:in `_app_views_owner_vans_new_html_erb___897599909291401853_70117406453840'
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 15:10:50 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 15:19:08 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error ([:owner, :title] is not a symbol nor a string):
+    1: <h1>Please tell me more about this van</h1>
+    2: 
+    3: <%= simple_form_for @van do |f| %>
+    4:   <%= f.input [:owner, :title] %>
+    5: 
+    6:   <%= f.input :description %>
+    7: 
+  
+app/views/owner/vans/new.html.erb:4:in `block in _app_views_owner_vans_new_html_erb___897599909291401853_70117408063720'
+app/views/owner/vans/new.html.erb:3:in `_app_views_owner_vans_new_html_erb___897599909291401853_70117408063720'
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 15:23:19 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (56.4ms)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `picture_cache' for #<Van:0x00007f8af63ad620>
+Did you mean?  picture_change
+               picture_was):
+    14:   <%= f.input :brand %>
+    15: 
+    16:   <%= f.input :picture %>
+    17:   <%= f.input :picture_cache, as: :hidden %>
+    18: 
+    19:   <%= f.submit %>
+    20: <% end %>
+  
+app/views/owner/vans/new.html.erb:17:in `block in _app_views_owner_vans_new_html_erb___897599909291401853_70117406646120'
+app/views/owner/vans/new.html.erb:3:in `_app_views_owner_vans_new_html_erb___897599909291401853_70117406646120'
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 15:24:11 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 15:35:49 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (49.4ms)
+Completed 200 OK in 105ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:16:27 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (84.2ms)
+Completed 200 OK in 2173ms (Views: 2172.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:19:41 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 1099ms (Views: 1097.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:19:51 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 1061ms (Views: 1060.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:21:21 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:22:17 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 1061ms (Views: 1057.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:23:20 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:29:46 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 1040ms (Views: 1038.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:29:49 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:02 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:04 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:04 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:07 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:09 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:09 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:10 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:11 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:13 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:15 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:16 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:30:16 +0200
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mRent Load (57.8ms)[0m  [1m[34mSELECT "rents".* FROM "rents"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mVan Load (24.8ms)[0m  [1m[34mSELECT "vans".* FROM "vans"[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Load (22.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "bast.moinard@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "phone_number", "picture", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "bast.moinard@gmail.com"], ["encrypted_password", "$2a$11$6BC5paJjXXEzB3Pmu.GLPOMWi6gCfvWCrd1L5R7AzL0C8Il8V9umS"], ["first_name", "Bastien"], ["last_name", "Moinard"], ["phone_number", "06 56 43 93 13"], ["picture", "lzzgqpl6zbmpsdhg7qgb.jpg"], ["created_at", "2019-08-13 14:33:39.263678"], ["updated_at", "2019-08-13 14:33:39.263678"]]
+  ↳ db/seeds.rb:21
+  [1m[36mUser Update All (1.7ms)[0m  [1m[33mUPDATE "users" SET "picture" = 'image/upload/v1565706820/lzzgqpl6zbmpsdhg7qgb.jpg' WHERE "users"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:21
+  [1m[35m (38.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "nassim.bouskia@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "phone_number", "picture", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "nassim.bouskia@gmail.com"], ["encrypted_password", "$2a$11$pZv3PsCUAbklYiYqVz0.2.CDEbg4UDnNMfrhvG35UvRl26xnQw6Z."], ["first_name", "Nassim"], ["last_name", "Bouskia"], ["phone_number", "06 44 30 10 20"], ["picture", "redx9w0w4zdeewdvkyrt.jpg"], ["created_at", "2019-08-13 14:33:41.263152"], ["updated_at", "2019-08-13 14:33:41.263152"]]
+  ↳ db/seeds.rb:30
+  [1m[36mUser Update All (1.5ms)[0m  [1m[33mUPDATE "users" SET "picture" = 'image/upload/v1565706821/redx9w0w4zdeewdvkyrt.jpg' WHERE "users"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:30
+  [1m[35m (34.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:39
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "nina.tchalla@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "phone_number", "picture", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "nina.tchalla@gmail.com"], ["encrypted_password", "$2a$11$s.rgaaQIHPh5uIGxxzHJE.4F2hIk4agIG8x91TYmKRP5suhOxpqcy"], ["first_name", "Nina"], ["last_name", "Tchalla"], ["phone_number", "06 93 75 91 77"], ["picture", "q2tbij3h9n10etfbqlkv.jpg"], ["created_at", "2019-08-13 14:33:42.708224"], ["updated_at", "2019-08-13 14:33:42.708224"]]
+  ↳ db/seeds.rb:39
+  [1m[36mUser Update All (1.8ms)[0m  [1m[33mUPDATE "users" SET "picture" = 'image/upload/v1565706823/q2tbij3h9n10etfbqlkv.jpg' WHERE "users"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:39
+  [1m[35m (40.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:48
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "axel.prevoteaux@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "phone_number", "picture", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "axel.prevoteaux@gmail.com"], ["encrypted_password", "$2a$11$3YSn3cLGI338mp4tfrEyVOnK5CA7aUHH.frly6pYKgC/XuBCmcOfW"], ["first_name", "Axel"], ["last_name", "Prevoteaux"], ["phone_number", "06 02 55 18 35"], ["picture", "jlzjnbrbse1nndqnu5rr.jpg"], ["created_at", "2019-08-13 14:33:45.835256"], ["updated_at", "2019-08-13 14:33:45.835256"]]
+  ↳ db/seeds.rb:48
+  [1m[36mUser Update All (2.3ms)[0m  [1m[33mUPDATE "users" SET "picture" = 'image/upload/v1565706826/jlzjnbrbse1nndqnu5rr.jpg' WHERE "users"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:48
+  [1m[35m (42.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:55
+  [1m[36mVan Create (1.4ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Super van"], ["description", "Nous proposons de vous louer Francis. Nous avons déjà eu le plaisir de voyager avec notre chienne à bord de ce véhicule."], ["price_per_day", 60], ["user_id", 4], ["model", "T3 joker"], ["brand", "Volkswagen"], ["picture", "vrk8zh6gaevu0jkg2hyp.webp"], ["address", "Boulevard Stalingrad, Nantes 44300"], ["created_at", "2019-08-13 14:33:47.061080"], ["updated_at", "2019-08-13 14:33:47.061080"]]
+  ↳ db/seeds.rb:55
+  [1m[36mVan Update All (2.2ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706827/vrk8zh6gaevu0jkg2hyp.webp' WHERE "vans"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:55
+  [1m[35m (40.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:55
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:65
+  [1m[36mVan Create (4.4ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Van pratique"], ["description", "Nous proposons notre Van flambant neuf Stylevan sur base Peugeot expert 180ch boîte automatique et grip contrôle pour prendre du plaisir dès le début de votre road trip."], ["price_per_day", 90], ["user_id", 4], ["model", "Stylevan Boréal IV"], ["brand", "Peugeot"], ["picture", "a3j5kqna4ij0btrvd8eh.webp"], ["address", "Place Saint Félix, Nantes 44300"], ["created_at", "2019-08-13 14:33:48.351225"], ["updated_at", "2019-08-13 14:33:48.351225"]]
+  ↳ db/seeds.rb:65
+  [1m[36mVan Update All (0.5ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706829/a3j5kqna4ij0btrvd8eh.webp' WHERE "vans"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:65
+  [1m[35m (38.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:65
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:75
+  [1m[36mVan Create (0.4ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Economique et confortable"], ["description", "Notre van est idéal pour voyager à 4 en famille grâce à son toit relevable et son couchage en bas une fois la banquette allongée."], ["price_per_day", 64], ["user_id", 4], ["model", "Possl Compster"], ["brand", "Citroen"], ["picture", "w7scxiifwwcqtrjthuqa.jpg"], ["address", "Chemin de Bonneville, Nantes 44300"], ["created_at", "2019-08-13 14:33:49.757654"], ["updated_at", "2019-08-13 14:33:49.757654"]]
+  ↳ db/seeds.rb:75
+  [1m[36mVan Update All (1.7ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706830/w7scxiifwwcqtrjthuqa.jpg' WHERE "vans"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:75
+  [1m[35m (40.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:75
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:87
+  [1m[36mVan Create (1.5ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Old school classic"], ["description", "Bonjour, Si vous souhaitez un voyage dans les 70’s, une belle expérience et un dépaysement total, nous vous proposons à la location notre combi VOLKSWAGEN T2B Bay Window, équipé Westfalia, 1.6 essence, de 1974, se prénommant GiGi."], ["price_per_day", 65], ["user_id", 3], ["model", "T2B Bay window Westfalia"], ["brand", "Volkswagen"], ["picture", "yxp4ov0mc0zvvppa4jfo.webp"], ["address", "Rue des columières, Nantes 44300"], ["created_at", "2019-08-13 14:33:51.823441"], ["updated_at", "2019-08-13 14:33:51.823441"]]
+  ↳ db/seeds.rb:87
+  [1m[36mVan Update All (1.9ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706832/yxp4ov0mc0zvvppa4jfo.webp' WHERE "vans"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:87
+  [1m[35m (18.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:87
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:97
+  [1m[36mVan Create (2.3ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Chique"], ["description", "Nous vous proposons de vous évadez à bord de notre Vito Marco Polo. Parfaitement adapté pour un weekend au soleil ou un road trip de plusieurs semaines."], ["price_per_day", 72], ["user_id", 3], ["model", "Viano Marco Polo"], ["brand", "Mercedes"], ["picture", "sbexw7gc8kohnaomt4cn.webp"], ["address", "Rue Félibien, Nantes 44300"], ["created_at", "2019-08-13 14:33:53.653304"], ["updated_at", "2019-08-13 14:33:53.653304"]]
+  ↳ db/seeds.rb:97
+  [1m[36mVan Update All (1.6ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706834/sbexw7gc8kohnaomt4cn.webp' WHERE "vans"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:97
+  [1m[35m (65.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:97
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:107
+  [1m[36mVan Create (2.5ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Mini camping car"], ["description", "Ce mini camping car vous emmènera partout où vous le souhaitez. Il passe aisément sous les barres de 2 m voire moins et se gare facilement. Il est équipé d'un porte 2 vélos, d'une kitchenette avec évier et feu, d'un frigo, d'une USB chargeur de téléphone et de bloc de rangements."], ["price_per_day", 60], ["user_id", 3], ["model", "Vivaro"], ["brand", "Opel"], ["picture", "uucf1fqheomjp8twxtpw.webp"], ["address", "Boulevard Paul Chabas, Nantes 44300"], ["created_at", "2019-08-13 14:33:55.127642"], ["updated_at", "2019-08-13 14:33:55.127642"]]
+  ↳ db/seeds.rb:107
+  [1m[36mVan Update All (1.5ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706835/uucf1fqheomjp8twxtpw.webp' WHERE "vans"."id" = $1[0m  [["id", 6]]
+  ↳ db/seeds.rb:107
+  [1m[35m (64.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:107
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:119
+  [1m[36mVan Create (1.7ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Petit fourgon douillé"], ["description", "Ce petit fourgon aménagé permet de passer sous les barrières et de se rendre au coeur des lieux les plus insolites tout en restant en classe 1 sur l'autoroute."], ["price_per_day", 65], ["user_id", 1], ["model", "Trafic"], ["brand", "Renault"], ["picture", "pyul7wiqsb0a3zlug9r5.webp"], ["address", "Place gralin, Nantes 44300"], ["created_at", "2019-08-13 14:33:56.151171"], ["updated_at", "2019-08-13 14:33:56.151171"]]
+  ↳ db/seeds.rb:119
+  [1m[36mVan Update All (1.7ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706836/pyul7wiqsb0a3zlug9r5.webp' WHERE "vans"."id" = $1[0m  [["id", 7]]
+  ↳ db/seeds.rb:119
+  [1m[35m (36.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:119
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:129
+  [1m[36mVan Create (1.8ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Petit van pour 4"], ["description", "Idéal de 2 à 4 personnes, ce california de 2018 est flambant neuf. (avril 2018, - 20 000 km) C'est un VAN, et donc il passe quasiment partout comme une voiture."], ["price_per_day", 70], ["user_id", 1], ["model", "California"], ["brand", "Volkswagen"], ["picture", "u7uyuisxel2gnnujvob6.webp"], ["address", "St Donatien-Malakoff, Nantes 44300"], ["created_at", "2019-08-13 14:33:57.348073"], ["updated_at", "2019-08-13 14:33:57.348073"]]
+  ↳ db/seeds.rb:129
+  [1m[36mVan Update All (1.5ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706838/u7uyuisxel2gnnujvob6.webp' WHERE "vans"."id" = $1[0m  [["id", 8]]
+  ↳ db/seeds.rb:129
+  [1m[35m (39.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:129
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:139
+  [1m[36mVan Create (1.5ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Envie de faire un week end dépaysant dans un univers année 70"], ["description", "Bonjour, Notre Van est très fonctionnel. Idéal pour deux personnes. Permet d'être en autonomie totale avec l'eau, l'ectricité, le réfrigérateur (une partie congélateur) et les plaques de cuisson pendant pratiquement une semaine sans démarrer le véhicule grâce à deux grosses batteries auxiliaires"], ["price_per_day", 65], ["user_id", 1], ["model", "Combi"], ["brand", "Volkswagen"], ["picture", "qsi2kforngmsnkyhwcra.jpg"], ["address", "Le Rocher d'Enfer, Nantes 44300"], ["created_at", "2019-08-13 14:33:58.582776"], ["updated_at", "2019-08-13 14:33:58.582776"]]
+  ↳ db/seeds.rb:139
+  [1m[36mVan Update All (1.4ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706839/qsi2kforngmsnkyhwcra.jpg' WHERE "vans"."id" = $1[0m  [["id", 9]]
+  ↳ db/seeds.rb:139
+  [1m[35m (40.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:139
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:151
+  [1m[36mVan Create (1.8ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Confort et mobile"], ["description", " Tres economique turbo diesel grâce sa hauteur 1.9 metres vous permet acces bord de plage .super marche .prix peage classe 1 comme une voiture  grace a sa taille possible de se garer n importe ou  il est considere comme une voiture particuliere"], ["price_per_day", 50], ["user_id", 2], ["model", "Transporter T5"], ["brand", "Volkswagen"], ["picture", "vktshvclp3jrsu6eh8fa.webp"], ["address", "Rue des Landes, Nantes 44300"], ["created_at", "2019-08-13 14:33:59.605848"], ["updated_at", "2019-08-13 14:33:59.605848"]]
+  ↳ db/seeds.rb:151
+  [1m[36mVan Update All (1.8ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706840/vktshvclp3jrsu6eh8fa.webp' WHERE "vans"."id" = $1[0m  [["id", 10]]
+  ↳ db/seeds.rb:151
+  [1m[35m (39.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:151
+  [1m[35m (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:161
+  [1m[36mVan Create (1.7ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Neuf"], ["description", "A louer van aménagé sur Renault Trafic 2017 1.6L dCi 125 cv twin turbo avec Start&Stop. Peinture gris platine métallisé. Châssis H1L1 : longueur 4m99, largeur 1m96, hauteur 1m99. 5 places assises et 4 couchages."], ["price_per_day", 60], ["user_id", 2], ["model", "Trafic 2018"], ["brand", "Renault"], ["picture", "mnzazyvabrwtl3px86fq.webp"], ["address", "Île de Nantes, Nantes 44200"], ["created_at", "2019-08-13 14:34:01.043828"], ["updated_at", "2019-08-13 14:34:01.043828"]]
+  ↳ db/seeds.rb:161
+  [1m[36mVan Update All (1.9ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706841/mnzazyvabrwtl3px86fq.webp' WHERE "vans"."id" = $1[0m  [["id", 11]]
+  ↳ db/seeds.rb:161
+  [1m[35m (35.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:161
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:171
+  [1m[36mVan Create (1.5ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Confort et mobile"], ["description", "Son look discret et ces petites dimensions vous permettent de passer partout (accès sous toutes les barres de parking car hauteur - de 2 mètres) et les péages sont au même prix qu'une voiture."], ["price_per_day", 58], ["user_id", 2], ["model", "Vito Marco Polo 2000"], ["brand", "Mercedes"], ["picture", "a0snimqsopcbasvshdy8.webp"], ["address", "Rue Général Buat, Nantes 44000"], ["created_at", "2019-08-13 14:34:02.676249"], ["updated_at", "2019-08-13 14:34:02.676249"]]
+  ↳ db/seeds.rb:171
+  [1m[36mVan Update All (1.5ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565706843/a0snimqsopcbasvshdy8.webp' WHERE "vans"."id" = $1[0m  [["id", 12]]
+  ↳ db/seeds.rb:171
+  [1m[35m (31.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:171
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:186
+  [1m[36mRent Create (4.2ms)[0m  [1m[32mINSERT INTO "rents" ("begin_date", "end_date", "van_id", "user_id", "state", "total_price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["begin_date", "2019-08-12"], ["end_date", "2019-08-14"], ["van_id", 1], ["user_id", 3], ["state", "accepted"], ["total_price", 120], ["created_at", "2019-08-13 14:34:04.355947"], ["updated_at", "2019-08-13 14:34:04.355947"]]
+  ↳ db/seeds.rb:186
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:186
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:195
+  [1m[36mRent Create (2.0ms)[0m  [1m[32mINSERT INTO "rents" ("begin_date", "end_date", "van_id", "user_id", "state", "total_price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["begin_date", "2019-08-15"], ["end_date", "2019-08-17"], ["van_id", 2], ["user_id", 1], ["state", "accepted"], ["total_price", 270], ["created_at", "2019-08-13 14:34:04.379719"], ["updated_at", "2019-08-13 14:34:04.379719"]]
+  ↳ db/seeds.rb:195
+  [1m[35m (11.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:195
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:204
+  [1m[36mRent Create (2.0ms)[0m  [1m[32mINSERT INTO "rents" ("begin_date", "end_date", "van_id", "user_id", "state", "total_price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["begin_date", "2019-08-12"], ["end_date", "2019-08-13"], ["van_id", 3], ["user_id", 4], ["state", "declined"], ["total_price", 64], ["created_at", "2019-08-13 14:34:04.400965"], ["updated_at", "2019-08-13 14:34:04.400965"]]
+  ↳ db/seeds.rb:204
+  [1m[35m (12.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:204
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:213
+  [1m[36mRent Create (2.5ms)[0m  [1m[32mINSERT INTO "rents" ("begin_date", "end_date", "van_id", "user_id", "total_price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["begin_date", "2019-08-12"], ["end_date", "2019-07-21"], ["van_id", 2], ["user_id", 3], ["total_price", 810], ["created_at", "2019-08-13 14:34:04.424397"], ["updated_at", "2019-08-13 14:34:04.424397"]]
+  ↳ db/seeds.rb:213
+  [1m[35m (8.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:213
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:44:06 +0200
+  
+NameError (uninitialized constant User::PhotoUploader):
+  
+app/models/user.rb:2:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+config/routes.rb:4:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:48:45 +0200
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (506.0ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 3544ms (Views: 3491.1ms | ActiveRecord: 12.4ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3699228786522948420)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to FixPictureType (20190813145328)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "users" ALTER COLUMN "picture" TYPE character varying[0m
+  ↳ db/migrate/20190813145328_fix_picture_type.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "vans" ALTER COLUMN "picture" TYPE character varying[0m
+  ↳ db/migrate/20190813145328_fix_picture_type.rb:4
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190813145328"]]
+  ↳ bin/rails:9
+  [1m[35m (30.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3699228786522948420)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:54:59 +0200
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Owner::VansController#new as HTML
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (86.3ms)
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 875ms (Views: 853.5ms | ActiveRecord: 4.7ms)
+
+
+Started POST "/owner/vans" for 127.0.0.1 at 2019-08-13 16:57:10 +0200
+Processing by Owner::VansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8k8Wpn1MXFCpI6Y8G7Dvv9aRe2e5Spnl6W5TKyuy6ME8Z0OjdOHg4oxE6a1ckkJizgagNdZMGyl7UpqMQkz+uQ==", "van"=>{"title"=>"Le beau van", "description"=>"beau van", "price_per_day"=>"50", "model"=>"truck", "brand"=>"machin", "address"=>"nantes", "picture"=>#<ActionDispatch::Http::UploadedFile:0x00007f95c1e37480 @tempfile=#<Tempfile:/tmp/RackMultipart20190813-22309-mpgyb9.jpg>, @original_filename="97a787f8d6fb66aaef15fa858aa433ea_XL.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"van[picture]\"; filename=\"97a787f8d6fb66aaef15fa858aa433ea_XL.jpg\"\r\nContent-Type: image/jpeg\r\n">, "picture_cache"=>""}, "commit"=>"Create Van"}
+Unpermitted parameter: :picture_cache
+  [1m[35m (3.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/owner/vans_controller.rb:8
+  [1m[35m (0.7ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/owner/vans_controller.rb:8
+Redirected to http://localhost:3000/vans
+Completed 302 Found in 38ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/vans" for 127.0.0.1 at 2019-08-13 16:57:10 +0200
+  
+ActionController::RoutingError (uninitialized constant VansController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:58:22 +0200
+Processing by Owner::VansController#new as HTML
+Completed 401 Unauthorized in 107ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-08-13 16:58:22 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/shared/_links.html.erb (1.5ms)
+  Rendered /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application (78.0ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 193ms (Views: 152.9ms | ActiveRecord: 11.1ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-08-13 16:59:36 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"90uvSur93C+RvB1sg3nFY760i2HMkk29J9Zxb7qRY6g5Y/pP41BgnbTbUv3EW2i+piNQM6OUz3G16rjI02910A==", "user"=>{"email"=>"bast.moinard@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "bast.moinard@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/owner/vans/new
+Completed 302 Found in 244ms (ActiveRecord: 27.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 16:59:36 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (10.3ms)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (113.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 155ms (Views: 139.0ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/owner/vans" for 127.0.0.1 at 2019-08-13 16:59:51 +0200
+Processing by Owner::VansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"43/fb1+2HLG1PXeY09A6yuY0/P0Ray6oYtHnuN6Hj2b0sA7Fknj7CoTR/R48cZlKlWmPiVNj51YQOo/pqwxC4A==", "van"=>{"title"=>"bob", "description"=>"bob le beau van", "price_per_day"=>"50", "model"=>"truck", "brand"=>"ma", "address"=>"", "picture_cache"=>""}, "commit"=>"Create Van"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Unpermitted parameter: :picture_cache
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/owner/vans_controller.rb:9
+  [1m[36mVan Create (0.6ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["title", "bob"], ["description", "bob le beau van"], ["price_per_day", 50], ["user_id", 1], ["model", "truck"], ["brand", "ma"], ["address", ""], ["created_at", "2019-08-13 14:59:51.230148"], ["updated_at", "2019-08-13 14:59:51.230148"]]
+  ↳ app/controllers/owner/vans_controller.rb:9
+  [1m[35m (30.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/owner/vans_controller.rb:9
+Redirected to http://localhost:3000/vans
+Completed 302 Found in 40ms (ActiveRecord: 31.9ms)
+
+
+Started GET "/vans" for 127.0.0.1 at 2019-08-13 16:59:51 +0200
+  
+ActionController::RoutingError (uninitialized constant VansController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[36mVan Load (0.5ms)[0m  [1m[34mSELECT  "vans".* FROM "vans" ORDER BY "vans"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVan Destroy (0.8ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 13]]
+  [1m[35m (30.9ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:00:19 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (15.5ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 48.9ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/owner/vans" for 127.0.0.1 at 2019-08-13 17:00:53 +0200
+Processing by Owner::VansController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vqQDkOJp9W/ezRB1jBMwAmFmJHIRcGVXE88l2SAkuOmpa9I6L6cS1O8hmvNjspOCEjtXBlN4rKlhJE2IVa91bw==", "van"=>{"title"=>"bob", "description"=>"bob le beau van", "price_per_day"=>"50", "model"=>"truck", "brand"=>"machin", "address"=>"nantes", "picture"=>#<ActionDispatch::Http::UploadedFile:0x0000564eb6e28168 @tempfile=#<Tempfile:/tmp/RackMultipart20190813-22309-a59rda.jpg>, @original_filename="97a787f8d6fb66aaef15fa858aa433ea_XL.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"van[picture]\"; filename=\"97a787f8d6fb66aaef15fa858aa433ea_XL.jpg\"\r\nContent-Type: image/jpeg\r\n">, "picture_cache"=>""}, "commit"=>"Create Van"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Unpermitted parameter: :picture_cache
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/owner/vans_controller.rb:9
+  [1m[36mVan Create (0.5ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "bob"], ["description", "bob le beau van"], ["price_per_day", 50], ["user_id", 1], ["model", "truck"], ["brand", "machin"], ["picture", "cxhromzcagfwe0nj5tmw.jpg"], ["address", "nantes"], ["created_at", "2019-08-13 15:00:53.104205"], ["updated_at", "2019-08-13 15:00:53.104205"]]
+  ↳ app/controllers/owner/vans_controller.rb:9
+  [1m[36mVan Update All (2.2ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565708453/cxhromzcagfwe0nj5tmw.jpg' WHERE "vans"."id" = $1[0m  [["id", 14]]
+  ↳ app/controllers/owner/vans_controller.rb:9
+  [1m[35m (34.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/owner/vans_controller.rb:9
+Redirected to http://localhost:3000/vans
+Completed 302 Found in 1050ms (ActiveRecord: 37.3ms)
+
+
+Started GET "/vans" for 127.0.0.1 at 2019-08-13 17:00:54 +0200
+  
+ActionController::RoutingError (uninitialized constant VansController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[36mVan Load (0.3ms)[0m  [1m[34mSELECT  "vans".* FROM "vans" ORDER BY "vans"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:01:33 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (10.8ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:11:12 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (12.4ms)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 1571ms (Views: 1568.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:13:45 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (25.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 1100ms (Views: 1096.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:14:44 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (25.2ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 1104ms (Views: 1099.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:15:31 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (26.3ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 1066ms (Views: 1061.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:15:33 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (20.3ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 37.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:22:13 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (14.3ms)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 1015ms (Views: 1008.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:22:15 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (19.4ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 45ms (Views: 38.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:23:28 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (37.2ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 1044ms (Views: 1042.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:24:13 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (15.4ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 1067ms (Views: 1064.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:28:10 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (18.3ms)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 1060ms (Views: 1055.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:28:13 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (17.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 39.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:30:10 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (19.9ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 1025ms (Views: 1022.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:31:18 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (10.4ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 986ms (Views: 983.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:32:18 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (13.6ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 1014ms (Views: 1010.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:35:55 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (12.3ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 26.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:37:07 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (21.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 37.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:39:40 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (15.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:40:05 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (15.3ms)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (3.1ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 34.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:45:31 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (22.7ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 41.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:45:50 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (31.4ms)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 74ms (Views: 64.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:46:54 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (34.9ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 61.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:51:19 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (14.2ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:52:27 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (10.8ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:54:34 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (11.2ms)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:56:16 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (13.3ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:56:32 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (12.8ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:56:46 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (11.9ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:57:24 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (10.8ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 955ms (Views: 952.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 17:57:45 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (9.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:00:12 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (35.8ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 50.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:00:19 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (18.6ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 47ms (Views: 38.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:00:36 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (15.6ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:01:57 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (13.9ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:01:58 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (14.6ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 40ms (Views: 33.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:03:10 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (17.7ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 41ms (Views: 37.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:03:43 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (18.0ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 39.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:03:44 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (15.7ms)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 45ms (Views: 40.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:03:44 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (8.7ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:10:59 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (16.0ms)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 34.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:12:26 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (13.5ms)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 27.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:12:47 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (21.8ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 54ms (Views: 49.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:13:08 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (15.1ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 30.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:14:10 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (13.0ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:15:01 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (22.9ms)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 82ms (Views: 78.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:15:47 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (20.3ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 33.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:20:05 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (21.4ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 42.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:31:30 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (9.7ms)
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (3.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 23.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:32:01 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (20.0ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 48ms (Views: 39.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:37:16 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (9.0ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 24.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:38:30 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (13.9ms)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (3.3ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 31.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:39:15 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (25.4ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 44.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:40:13 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (31.4ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 57ms (Views: 52.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:40:29 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (9.0ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:40:44 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (13.7ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 32ms (Views: 29.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:40:56 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (21.0ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 47ms (Views: 42.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/owner/vans/new" for 127.0.0.1 at 2019-08-13 18:41:45 +0200
+Processing by Owner::VansController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/bastien/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering owner/vans/new.html.erb within layouts/application
+  Rendered owner/vans/new.html.erb within layouts/application (17.2ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 38.3ms | ActiveRecord: 0.9ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3699228786522948420)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to FixPictureType (20190813145328)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (17.5ms)[0m  [1m[35mALTER TABLE "users" ALTER COLUMN "picture" TYPE character varying[0m
+  ↳ db/migrate/20190813145328_fix_picture_type.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "vans" ALTER COLUMN "picture" TYPE character varying[0m
+  ↳ db/migrate/20190813145328_fix_picture_type.rb:4
+  [1m[36mActiveRecord::SchemaMigration Create (3.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190813145328"]]
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3699228786522948420)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mRent Load (0.7ms)[0m  [1m[34mSELECT "rents".* FROM "rents"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mRent Destroy (4.0ms)[0m  [1m[31mDELETE FROM "rents" WHERE "rents"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mRent Destroy (0.4ms)[0m  [1m[31mDELETE FROM "rents" WHERE "rents"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mRent Destroy (0.3ms)[0m  [1m[31mDELETE FROM "rents" WHERE "rents"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mRent Destroy (0.2ms)[0m  [1m[31mDELETE FROM "rents" WHERE "rents"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[36mVan Load (1.3ms)[0m  [1m[34mSELECT "vans".* FROM "vans"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (0.8ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (0.6ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (2.1ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (0.8ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (0.6ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 6]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (0.8ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 7]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (0.6ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 8]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (0.6ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 9]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (0.6ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 10]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (0.6ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 11]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (0.6ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 12]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVan Destroy (0.6ms)[0m  [1m[31mDELETE FROM "vans" WHERE "vans"."id" = $1[0m  [["id", 13]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mUser Destroy (0.8ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mUser Destroy (1.0ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mUser Destroy (1.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 6]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mUser Destroy (1.0ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "bast.moinard@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mUser Create (2.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "phone_number", "picture", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "bast.moinard@gmail.com"], ["encrypted_password", "$2a$11$jf4yxnwrbJgBSZgG4uBrx.UbBj1WNO.OgFinJhHDsO/BxTXRCL7Ce"], ["first_name", "Bastien"], ["last_name", "Moinard"], ["phone_number", "06 56 43 93 13"], ["picture", "ujwpgcobj1tublvayw5m.jpg"], ["created_at", "2019-08-14 09:57:33.148669"], ["updated_at", "2019-08-14 09:57:33.148669"]]
+  ↳ db/seeds.rb:21
+  [1m[36mUser Update All (4.7ms)[0m  [1m[33mUPDATE "users" SET "picture" = 'image/upload/v1565776654/ujwpgcobj1tublvayw5m.jpg' WHERE "users"."id" = $1[0m  [["id", 7]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "nassim.bouskia@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "phone_number", "picture", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "nassim.bouskia@gmail.com"], ["encrypted_password", "$2a$11$UhQOA31qpW6kQiLwQCm1AeaOPpbSqa8nwHBPiG6VQaDtZqL95EbP."], ["first_name", "Nassim"], ["last_name", "Bouskia"], ["phone_number", "06 44 30 10 20"], ["picture", "jrehicaudyuhhsnj40yd.jpg"], ["created_at", "2019-08-14 09:57:34.442306"], ["updated_at", "2019-08-14 09:57:34.442306"]]
+  ↳ db/seeds.rb:30
+  [1m[36mUser Update All (0.5ms)[0m  [1m[33mUPDATE "users" SET "picture" = 'image/upload/v1565776655/jrehicaudyuhhsnj40yd.jpg' WHERE "users"."id" = $1[0m  [["id", 8]]
+  ↳ db/seeds.rb:30
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:39
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "nina.tchalla@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "phone_number", "picture", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "nina.tchalla@gmail.com"], ["encrypted_password", "$2a$11$BersJ6XSXyabio1NTEoJfuDYKPakAXG7/8KoIxABq979/GMR6PWFC"], ["first_name", "Nina"], ["last_name", "Tchalla"], ["phone_number", "06 93 75 91 77"], ["picture", "ctyts5mkjybsrr9cddw5.jpg"], ["created_at", "2019-08-14 09:57:35.826411"], ["updated_at", "2019-08-14 09:57:35.826411"]]
+  ↳ db/seeds.rb:39
+  [1m[36mUser Update All (0.7ms)[0m  [1m[33mUPDATE "users" SET "picture" = 'image/upload/v1565776656/ctyts5mkjybsrr9cddw5.jpg' WHERE "users"."id" = $1[0m  [["id", 9]]
+  ↳ db/seeds.rb:39
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:48
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "axel.prevoteaux@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:48
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "phone_number", "picture", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "axel.prevoteaux@gmail.com"], ["encrypted_password", "$2a$11$KPmGlLPPoa4OJfQmi9qmCO0M9DSJacCh3/XWqZFtg6SkrqH5pN2k2"], ["first_name", "Axel"], ["last_name", "Prevoteaux"], ["phone_number", "06 02 55 18 35"], ["picture", "zde5nalqnktvkxntzjbl.jpg"], ["created_at", "2019-08-14 09:57:37.265096"], ["updated_at", "2019-08-14 09:57:37.265096"]]
+  ↳ db/seeds.rb:48
+  [1m[36mUser Update All (0.6ms)[0m  [1m[33mUPDATE "users" SET "picture" = 'image/upload/v1565776658/zde5nalqnktvkxntzjbl.jpg' WHERE "users"."id" = $1[0m  [["id", 10]]
+  ↳ db/seeds.rb:48
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:48
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:55
+  [1m[36mVan Create (1.1ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Super van"], ["description", "Nous proposons de vous louer Francis. Nous avons déjà eu le plaisir de voyager avec notre chienne à bord de ce véhicule."], ["price_per_day", 60], ["user_id", 10], ["model", "T3 joker"], ["brand", "Volkswagen"], ["picture", "agfkp27d5tisctg73zzk.webp"], ["address", "Boulevard Stalingrad, Nantes 44300"], ["created_at", "2019-08-14 09:57:38.505202"], ["updated_at", "2019-08-14 09:57:38.505202"]]
+  ↳ db/seeds.rb:55
+  [1m[36mVan Update All (0.7ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776659/agfkp27d5tisctg73zzk.webp' WHERE "vans"."id" = $1[0m  [["id", 14]]
+  ↳ db/seeds.rb:55
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:55
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:65
+  [1m[36mVan Create (0.5ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Van pratique"], ["description", "Nous proposons notre Van flambant neuf Stylevan sur base Peugeot expert 180ch boîte automatique et grip contrôle pour prendre du plaisir dès le début de votre road trip."], ["price_per_day", 90], ["user_id", 10], ["model", "Stylevan Boréal IV"], ["brand", "Peugeot"], ["picture", "opaqmszmjn8sfyjcwyyz.webp"], ["address", "Place Saint Félix, Nantes 44300"], ["created_at", "2019-08-14 09:57:39.769050"], ["updated_at", "2019-08-14 09:57:39.769050"]]
+  ↳ db/seeds.rb:65
+  [1m[36mVan Update All (0.7ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776660/opaqmszmjn8sfyjcwyyz.webp' WHERE "vans"."id" = $1[0m  [["id", 15]]
+  ↳ db/seeds.rb:65
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:65
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:75
+  [1m[36mVan Create (1.6ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Economique et confortable"], ["description", "Notre van est idéal pour voyager à 4 en famille grâce à son toit relevable et son couchage en bas une fois la banquette allongée."], ["price_per_day", 64], ["user_id", 10], ["model", "Possl Compster"], ["brand", "Citroen"], ["picture", "wqmumwjgvoh9jp0cmmrg.jpg"], ["address", "Chemin de Bonneville, Nantes 44300"], ["created_at", "2019-08-14 09:57:41.355858"], ["updated_at", "2019-08-14 09:57:41.355858"]]
+  ↳ db/seeds.rb:75
+  [1m[36mVan Update All (0.9ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776662/wqmumwjgvoh9jp0cmmrg.jpg' WHERE "vans"."id" = $1[0m  [["id", 16]]
+  ↳ db/seeds.rb:75
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:75
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:87
+  [1m[36mVan Create (0.4ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Old school classic"], ["description", "Bonjour, Si vous souhaitez un voyage dans les 70’s, une belle expérience et un dépaysement total, nous vous proposons à la location notre combi VOLKSWAGEN T2B Bay Window, équipé Westfalia, 1.6 essence, de 1974, se prénommant GiGi."], ["price_per_day", 65], ["user_id", 9], ["model", "T2B Bay window Westfalia"], ["brand", "Volkswagen"], ["picture", "opvstctagrgldxvwonq9.webp"], ["address", "Rue des columières, Nantes 44300"], ["created_at", "2019-08-14 09:57:42.681692"], ["updated_at", "2019-08-14 09:57:42.681692"]]
+  ↳ db/seeds.rb:87
+  [1m[36mVan Update All (0.6ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776663/opvstctagrgldxvwonq9.webp' WHERE "vans"."id" = $1[0m  [["id", 17]]
+  ↳ db/seeds.rb:87
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:87
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:97
+  [1m[36mVan Create (0.3ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Chique"], ["description", "Nous vous proposons de vous évadez à bord de notre Vito Marco Polo. Parfaitement adapté pour un weekend au soleil ou un road trip de plusieurs semaines."], ["price_per_day", 72], ["user_id", 9], ["model", "Viano Marco Polo"], ["brand", "Mercedes"], ["picture", "y9sefwjbud8ergcu4uzf.webp"], ["address", "Rue Félibien, Nantes 44300"], ["created_at", "2019-08-14 09:57:44.153775"], ["updated_at", "2019-08-14 09:57:44.153775"]]
+  ↳ db/seeds.rb:97
+  [1m[36mVan Update All (0.7ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776665/y9sefwjbud8ergcu4uzf.webp' WHERE "vans"."id" = $1[0m  [["id", 18]]
+  ↳ db/seeds.rb:97
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:97
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:107
+  [1m[36mVan Create (0.5ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Mini camping car"], ["description", "Ce mini camping car vous emmènera partout où vous le souhaitez. Il passe aisément sous les barres de 2 m voire moins et se gare facilement. Il est équipé d'un porte 2 vélos, d'une kitchenette avec évier et feu, d'un frigo, d'une USB chargeur de téléphone et de bloc de rangements."], ["price_per_day", 60], ["user_id", 9], ["model", "Vivaro"], ["brand", "Opel"], ["picture", "wzk8dq2eejmjthbu7mxw.webp"], ["address", "Boulevard Paul Chabas, Nantes 44300"], ["created_at", "2019-08-14 09:57:45.857474"], ["updated_at", "2019-08-14 09:57:45.857474"]]
+  ↳ db/seeds.rb:107
+  [1m[36mVan Update All (0.7ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776666/wzk8dq2eejmjthbu7mxw.webp' WHERE "vans"."id" = $1[0m  [["id", 19]]
+  ↳ db/seeds.rb:107
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:107
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:119
+  [1m[36mVan Create (0.4ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Petit fourgon douillé"], ["description", "Ce petit fourgon aménagé permet de passer sous les barrières et de se rendre au coeur des lieux les plus insolites tout en restant en classe 1 sur l'autoroute."], ["price_per_day", 65], ["user_id", 7], ["model", "Trafic"], ["brand", "Renault"], ["picture", "tvjhhjotrxyd9dov9qid.webp"], ["address", "Place gralin, Nantes 44300"], ["created_at", "2019-08-14 09:57:47.189082"], ["updated_at", "2019-08-14 09:57:47.189082"]]
+  ↳ db/seeds.rb:119
+  [1m[36mVan Update All (0.6ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776668/tvjhhjotrxyd9dov9qid.webp' WHERE "vans"."id" = $1[0m  [["id", 20]]
+  ↳ db/seeds.rb:119
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:119
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:129
+  [1m[36mVan Create (0.4ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Petit van pour 4"], ["description", "Idéal de 2 à 4 personnes, ce california de 2018 est flambant neuf. (avril 2018, - 20 000 km) C'est un VAN, et donc il passe quasiment partout comme une voiture."], ["price_per_day", 70], ["user_id", 7], ["model", "California"], ["brand", "Volkswagen"], ["picture", "ojo7vxyp0kpe3yyh7frs.webp"], ["address", "St Donatien-Malakoff, Nantes 44300"], ["created_at", "2019-08-14 09:57:48.394760"], ["updated_at", "2019-08-14 09:57:48.394760"]]
+  ↳ db/seeds.rb:129
+  [1m[36mVan Update All (0.6ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776669/ojo7vxyp0kpe3yyh7frs.webp' WHERE "vans"."id" = $1[0m  [["id", 21]]
+  ↳ db/seeds.rb:129
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:129
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:139
+  [1m[36mVan Create (0.7ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Envie de faire un week end dépaysant dans un univers année 70"], ["description", "Bonjour, Notre Van est très fonctionnel. Idéal pour deux personnes. Permet d'être en autonomie totale avec l'eau, l'ectricité, le réfrigérateur (une partie congélateur) et les plaques de cuisson pendant pratiquement une semaine sans démarrer le véhicule grâce à deux grosses batteries auxiliaires"], ["price_per_day", 65], ["user_id", 7], ["model", "Combi"], ["brand", "Volkswagen"], ["picture", "xlcudeljxrc8ko28ihkv.jpg"], ["address", "Le Rocher d'Enfer, Nantes 44300"], ["created_at", "2019-08-14 09:57:49.604213"], ["updated_at", "2019-08-14 09:57:49.604213"]]
+  ↳ db/seeds.rb:139
+  [1m[36mVan Update All (0.8ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776670/xlcudeljxrc8ko28ihkv.jpg' WHERE "vans"."id" = $1[0m  [["id", 22]]
+  ↳ db/seeds.rb:139
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:139
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:151
+  [1m[36mVan Create (0.6ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Confort et mobile"], ["description", " Tres economique turbo diesel grâce sa hauteur 1.9 metres vous permet acces bord de plage .super marche .prix peage classe 1 comme une voiture  grace a sa taille possible de se garer n importe ou  il est considere comme une voiture particuliere"], ["price_per_day", 50], ["user_id", 8], ["model", "Transporter T5"], ["brand", "Volkswagen"], ["picture", "xulvqznabnnpfndrxapu.webp"], ["address", "Rue des Landes, Nantes 44300"], ["created_at", "2019-08-14 09:57:50.571067"], ["updated_at", "2019-08-14 09:57:50.571067"]]
+  ↳ db/seeds.rb:151
+  [1m[36mVan Update All (0.7ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776671/xulvqznabnnpfndrxapu.webp' WHERE "vans"."id" = $1[0m  [["id", 23]]
+  ↳ db/seeds.rb:151
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:151
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:161
+  [1m[36mVan Create (0.7ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Neuf"], ["description", "A louer van aménagé sur Renault Trafic 2017 1.6L dCi 125 cv twin turbo avec Start&Stop. Peinture gris platine métallisé. Châssis H1L1 : longueur 4m99, largeur 1m96, hauteur 1m99. 5 places assises et 4 couchages."], ["price_per_day", 60], ["user_id", 8], ["model", "Trafic 2018"], ["brand", "Renault"], ["picture", "juihielopngzwvveaell.webp"], ["address", "Île de Nantes, Nantes 44200"], ["created_at", "2019-08-14 09:57:52.000400"], ["updated_at", "2019-08-14 09:57:52.000400"]]
+  ↳ db/seeds.rb:161
+  [1m[36mVan Update All (122.8ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776672/juihielopngzwvveaell.webp' WHERE "vans"."id" = $1[0m  [["id", 24]]
+  ↳ db/seeds.rb:161
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:161
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:171
+  [1m[36mVan Create (0.5ms)[0m  [1m[32mINSERT INTO "vans" ("title", "description", "price_per_day", "user_id", "model", "brand", "picture", "address", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Confort et mobile"], ["description", "Son look discret et ces petites dimensions vous permettent de passer partout (accès sous toutes les barres de parking car hauteur - de 2 mètres) et les péages sont au même prix qu'une voiture."], ["price_per_day", 58], ["user_id", 8], ["model", "Vito Marco Polo 2000"], ["brand", "Mercedes"], ["picture", "xiklll68xfazbdapswc8.webp"], ["address", "Rue Général Buat, Nantes 44000"], ["created_at", "2019-08-14 09:57:53.448915"], ["updated_at", "2019-08-14 09:57:53.448915"]]
+  ↳ db/seeds.rb:171
+  [1m[36mVan Update All (0.6ms)[0m  [1m[33mUPDATE "vans" SET "picture" = 'image/upload/v1565776674/xiklll68xfazbdapswc8.webp' WHERE "vans"."id" = $1[0m  [["id", 25]]
+  ↳ db/seeds.rb:171
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:171
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:186
+  [1m[36mRent Create (1.1ms)[0m  [1m[32mINSERT INTO "rents" ("begin_date", "end_date", "van_id", "user_id", "state", "total_price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["begin_date", "2019-08-12"], ["end_date", "2019-08-14"], ["van_id", 14], ["user_id", 9], ["state", "accepted"], ["total_price", 120], ["created_at", "2019-08-14 09:57:54.764266"], ["updated_at", "2019-08-14 09:57:54.764266"]]
+  ↳ db/seeds.rb:186
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:186
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:195
+  [1m[36mRent Create (0.8ms)[0m  [1m[32mINSERT INTO "rents" ("begin_date", "end_date", "van_id", "user_id", "state", "total_price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["begin_date", "2019-08-15"], ["end_date", "2019-08-17"], ["van_id", 15], ["user_id", 7], ["state", "accepted"], ["total_price", 270], ["created_at", "2019-08-14 09:57:54.769907"], ["updated_at", "2019-08-14 09:57:54.769907"]]
+  ↳ db/seeds.rb:195
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:195
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:204
+  [1m[36mRent Create (0.8ms)[0m  [1m[32mINSERT INTO "rents" ("begin_date", "end_date", "van_id", "user_id", "state", "total_price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["begin_date", "2019-08-12"], ["end_date", "2019-08-13"], ["van_id", 16], ["user_id", 10], ["state", "declined"], ["total_price", 64], ["created_at", "2019-08-14 09:57:54.774759"], ["updated_at", "2019-08-14 09:57:54.774759"]]
+  ↳ db/seeds.rb:204
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:204
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:213
+  [1m[36mRent Create (0.9ms)[0m  [1m[32mINSERT INTO "rents" ("begin_date", "end_date", "van_id", "user_id", "total_price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["begin_date", "2019-08-12"], ["end_date", "2019-07-21"], ["van_id", 15], ["user_id", 9], ["total_price", 810], ["created_at", "2019-08-14 09:57:54.779296"], ["updated_at", "2019-08-14 09:57:54.779296"]]
+  ↳ db/seeds.rb:213
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:213
+Started GET "/" for ::1 at 2019-08-14 11:58:20 +0200
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4259.3ms)
+  Rendered shared/_navbar.html.erb (5.2ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 4321ms (Views: 4319.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vans" for ::1 at 2019-08-14 11:58:31 +0200
+Processing by VansController#index as HTML
+  Rendering vans/index.html.erb within layouts/application
+  [1m[36mVan Load (0.7ms)[0m  [1m[34mSELECT "vans".* FROM "vans"[0m
+  ↳ app/views/vans/index.html.erb:3
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (29.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.9ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.0ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.2ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.0ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.1ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.7ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.6ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.3ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.8ms)
+  Rendered vans/index.html.erb within layouts/application (67.1ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 94ms (Views: 75.1ms | ActiveRecord: 11.7ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-14 11:58:43 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/shared/_links.html.erb (0.9ms)
+  Rendered /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application (16.9ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-08-14 11:58:45 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/shared/_error_messages.html.erb (0.5ms)
+  Rendered /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/shared/_links.html.erb (0.9ms)
+  Rendered /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/registrations/new.html.erb within layouts/application (5.1ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 11:58:47 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vans" for ::1 at 2019-08-14 11:58:51 +0200
+Processing by VansController#index as HTML
+  Rendering vans/index.html.erb within layouts/application
+  [1m[36mVan Load (0.4ms)[0m  [1m[34mSELECT "vans".* FROM "vans"[0m
+  ↳ app/views/vans/index.html.erb:3
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (33.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.8ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.1ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.2ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.0ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.0ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.1ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.5ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.3ms)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/views/vans/_van-card.html.erb:9
+  Rendered vans/_van-card.html.erb (1.7ms)
+  Rendered vans/index.html.erb within layouts/application (57.6ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 73.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-14 11:59:09 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/shared/_links.html.erb (1.0ms)
+  Rendered /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application (3.7ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-14 11:59:12 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"57p+7otK8GsLwWv3Ag7JEB/zDiCie7cw3uVBCBKCQwnqvvUgmcrNqhwlUinicsAVwAeLoUyDKj3OsoIctJ7u1Q==", "user"=>{"email"=>"nina.tchalla@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "nina.tchalla@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/ninatchalla/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 133ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 11:59:12 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/views/shared/_navbar.html.erb:13
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "vans" WHERE "vans"."user_id" = $1[0m  [["user_id", 9]]
+  ↳ app/models/user.rb:13
+  Rendered shared/_navbar.html.erb (6.8ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/rents" for ::1 at 2019-08-14 11:59:16 +0200
+  
+ActionController::RoutingError (uninitialized constant RentsController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/owner/dashboard" for ::1 at 2019-08-14 11:59:24 +0200
+  
+ActionController::RoutingError (uninitialized constant Owner::DashboardsController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:285:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:285:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (4.1.0) lib/puma/configuration.rb:228:in `call'
+puma (4.1.0) lib/puma/server.rb:664:in `handle_request'
+puma (4.1.0) lib/puma/server.rb:467:in `process_client'
+puma (4.1.0) lib/puma/server.rb:328:in `block in run'
+puma (4.1.0) lib/puma/thread_pool.rb:135:in `block in spawn_thread'

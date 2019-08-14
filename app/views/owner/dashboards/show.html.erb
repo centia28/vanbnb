@@ -34,8 +34,12 @@
             <p class="m-0"><%= rent.total_price %> €</p>
           </div>
           <div class="text-right card-van-dashboard-status">
-            <button type="button" class="btn btn-success">Accept</button>
-            <button type="button" class="btn btn-danger">Decline</button>
+            <% if rent.state == "pending" %>
+              <%= link_to "Accept", accept_owner_rent_path(rent), method: :patch, class: "btn btn-success" %>
+              <%= link_to "Decline", decline_owner_rent_path(rent), method: :patch, class: "btn btn-danger" %>
+            <% else %>
+              <%= rent.state %>
+            <% end %>
           </div>
         </div>
       </li>

@@ -1,6 +1,15 @@
 .login-form {
-  color: white;
+  background-color: white;
   .btn {
     width: 100%;
   }
+}
+.render {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-around;
+}
+.log-title h1 {
+  color: black;
+  text-shadow: none;
 }

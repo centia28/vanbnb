@@ -1,9 +1,13 @@
 .signup-form {
-  color: white;
+  background-color: white;
   .btn {
     width: 100%;
   }
   .text-muted {
-    color: white !important;
+    color: black !important;
   }
+}
+.sign-up-title h1 {
+  color: black;
+  text-shadow: none;
 }

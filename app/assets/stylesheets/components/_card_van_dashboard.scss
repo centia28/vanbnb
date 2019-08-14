@@ -1,0 +1,19 @@
+.card-van-dashboard {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.card-van-dashboard-infos {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.card-van-dashboard-status {
+	flex: 0 0 250px;
+	margin-top: 25px;
+}
+.card-van-dashboard-infos p {
+	opacity: 1;
+	font-size: 16px;
+}

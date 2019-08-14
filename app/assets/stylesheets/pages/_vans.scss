@@ -1,0 +1,16 @@
+.search-container{
+  margin-top: 16px;
+
+  .buttons{
+    margin-top: 32px;
+  }
+}
+.vans-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  padding: 4px;
+}
+.van > a:hover{
+  text-decoration: none;
+}

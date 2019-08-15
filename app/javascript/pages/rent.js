@@ -1,5 +1,9 @@
-const unit_price = parseInt(document.querySelector('.card__price').innerHTML.slice(0,-1),10);
 const total_price = document.getElementById('total_price');
+let unit_price
+if (total_price){
+  unit_price = parseInt(document.querySelector('.card__price').innerHTML.slice(0,-1),10);
+}
+
 const start = document.getElementById('rent_start_date');
 const end = document.getElementById('rent_end_date');
 
@@ -14,23 +18,26 @@ const changeTotalPrice = (duration) => {
 };
 
 const initUpdateTotalPriceOnRangeDateChange = () => {
+  if (start){
+    start.addEventListener('change', (event) => {
+      total_price.classList.add('hidden');
 
-  start.addEventListener('change', (event) => {
-    total_price.classList.add('hidden');
+      if (end.value != '') {
 
-    if (end.value != '') {
+        changeTotalPrice(duration(start.value, end.value));
+      }
+    })
+  }
 
-      changeTotalPrice(duration(start.value, end.value));
-    }
-  })
+  if (end){
+    end.addEventListener('change', (event) => {
+      total_price.classList.add('hidden');
 
-  end.addEventListener('change', (event) => {
-    total_price.classList.add('hidden');
-
-    if (start.value != '') {
-      changeTotalPrice(duration(start.value, end.value));
-    }
-  })
+      if (start.value != '') {
+        changeTotalPrice(duration(start.value, end.value));
+      }
+    })
+  }
 }
 
 export { initUpdateTotalPriceOnRangeDateChange };

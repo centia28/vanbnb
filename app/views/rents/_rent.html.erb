@@ -1,0 +1,26 @@
+<div class="rent__card">
+  <div class="top">
+    <div class="img__cont">
+      <div class="img">
+        <%= cl_image_tag rent.van.picture, crop: :fill, class: 'van_img' %>
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="dates">
+      <%= rent.begin_date.to_formatted_s(:short) %> - <%= rent.end_date.to_formatted_s(:short) %>
+    </div>
+    <div class="adr">
+      <%= rent.van.address %>
+    </div>
+    <div style="margin-top:16px;margin-bottom:16px">
+      <div class="line"></div>
+    </div>
+    <div>
+      <div class="details">
+        Show the details of the rent
+      </div>
+    </div>
+  </div>
+</div>
+

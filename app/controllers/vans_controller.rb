@@ -14,5 +14,11 @@ class VansController < ApplicationController
   def show
     @van = Van.find(params[:id])
     @rent = Rent.new
+    @unavailable_dates = @van.rents.map do |rent|
+      {
+        from: rent.begin_date,
+        to: rent.end_date
+      }
+    end
   end
 end

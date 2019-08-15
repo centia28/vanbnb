@@ -1,43 +1,52 @@
-<div class="container">
-  <div class="show-container">
-
-    <div class="van-details">
-      <div class="van-img"
-          style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= cl_image_path @van.picture, width: 400, height: 400, crop: 'fill' %>);">
+<article class="card">
+  <div class="card__left">
+    <div class="card__image">
+      <div class="image">
+        <img src="<%= cl_image_path @van.picture, width: 1000, height: 700, crop: 'fill' %>" />
       </div>
-
-      <div class="van-description">
-        <h2><%= @van.title %></h2>
-        <%= cl_image_tag @van.owner.picture, width: 40, height: 40, crop: 'fill', gravity: 'faces', class: "card-van-owner avatar-bordered" %>
-        <p><strong><%= @van.brand%> <%= @van.model  %> | <%= @van.address %></strong></p>
-        <p><%= @van.description %></p>
-      </div>
-
-      <%= link_to "Go back to list", vans_path, class: 'btn btn-light-pink' %>
+      <!-- <div class="card__sale-flag">Available this week</div> -->
     </div>
-
-    <div class="rent border">
-      <h4>Select dates to rent this van</h4>
-      <span><%= @van.price_per_day %>€/day</span>
-      <br>
-
-      <%= simple_form_for [@van,@rent] do |f| %>
-        <div class="form-col p-3">
-          <div class="form-group row">
-            <span class="mr-2"><%= f.label :begin_date, "From" %></span>
-            <%= f.input_field :begin_date %>
-          </div>
-          <div class="form-group row ">
-            <span class="mr-4"><%= f.label :end_date, "To" %></span>
-            <%= f.input_field :end_date %>
-          </div>
-          <div class="form-group row">
-            <%= f.submit "Rent the van", class: 'btn btn-light-pink' %>
-          </div>
-        </div>
-      <% end %>
-
-    </div>
-
+    <%= link_to "Go back to list", vans_path, class: 'back' %>
   </div>
-</div>
+
+  <div class="card__right">
+    <div class="card__info">
+      <h2 class="card__title"><%= @van.title %></h2>
+      <p><strong><%= @van.brand%> <%= @van.model  %> | <%= @van.address %></strong></p>
+      <%= cl_image_tag @van.owner.picture, width: 40, height: 40, crop: 'fill', gravity: 'faces', class: "card-van-owner avatar-bordered" %>
+      <div class="card__price"><%= @van.price_per_day %>€</div>
+      <p class="card__description">
+        <%= @van.description %>
+      </p>
+      <%= link_to "Rent now", "#rent-van", class: "btn btn-light-pink card__cta" %>
+    </div>
+  </div>
+
+  <div id="rent-van" class="modal-window">
+    <div>
+      <div class="card__price"><%= @van.price_per_day %>€/day</div>
+      <a href="#" title="Close" class="modal-close">Close</a>
+
+      <div class="rent__form">
+        <%= simple_form_for [@van,@rent] do |f| %>
+
+          <div class="form-group row">
+            <%= f.input :begin_date, label: 'From', as: :string, required: false, input_html: {class: "rent_datepicker", id: "rent_start_date"} %>
+          </div>
+
+          <div class="form-group row">
+            <%= f.input :end_date, label: 'To', as: :string, required: false, input_html: {class: "rent_datepicker", id: "rent_end_date"} %>
+          </div>
+
+          <div class="form-group row buttons">
+            <%= f.submit value: 'Rent', class: "btn btn-light-pink mr-5", id: "rent_btn" %>
+            <span class="font-weight-bold d-inline mt-2 hidden" id="total_price"> Total price: </span>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  <div id="unav_dates">
+    <%= @unavailable_dates.to_json %>
+  </div>
+</article>

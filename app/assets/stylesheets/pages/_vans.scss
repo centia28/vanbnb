@@ -1,5 +1,5 @@
 .search-container{
-  margin-top: 16px;
+  margin: 16px auto;
 
   .buttons{
     margin-top: 32px;
@@ -16,54 +16,70 @@
 }
 
 // Show
-.show-container{
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 16px;
-  padding: 16px;
-  margin-top: 16px;
+#unav_dates{
+  visibility: hidden;
 }
-.van-img{
-  width: 100%;
-  height: 400px;
-  background-color: white;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
 
-.van-description{
-  margin-top: 24px;
-  margin-bottom: 24px;
-  position: relative;
-
-  img{
+  &:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  &>div {
+    width: 525px;
+    height: 445px;
     position: absolute;
-    top: 0px;
-    right: 16px;
+    top: 42%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 2px;
   }
-
-  p{
-    font-size: 14px;
-    opacity: .7;
-    margin: 0;
+  .card__price{
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    font-size: 32px;
   }
 }
-.rent{
-  padding: 16px;
-  height: 400px;
+.rent__form{
+  margin-top: 45px;
+  margin-left: 15px;
 
-  h4{
-    text-align: center;
-    font-size: 24px;
-    opacity: .7;
-    margin: 0;
+  &>label{
+    margin-right: 15px !important;
   }
+}
 
-  span{
-    display: inline-block;
-    margin-left: 8px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    color: $ligth-pink;
+.hidden{
+  visibility: hidden
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  &:hover {
+    color: black;
   }
 }

@@ -2,6 +2,7 @@ class RentsController < ApplicationController
   before_action :set_van, only: :create
 
   def index
+    @rents = current_user.rents.order(begin_date: :DESC)
   end
 
   def show

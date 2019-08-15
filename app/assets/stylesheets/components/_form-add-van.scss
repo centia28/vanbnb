@@ -1,0 +1,63 @@
+.header-add-van {
+    opacity: 0.96;
+}
+
+.form-add-van {
+  padding-top: 20px;
+}
+.input-form {
+  font-family: $default-font;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: white;
+  opacity: 0.95;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+.remove-border {
+  border: 0px;
+}
+
+
+.background-image {
+ background-image: asset-url("background-add.jpg");
+ background-size: cover;
+}
+.btn-add-van{
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  background-color: $ligth-pink;
+  color: white;
+  border-radius: 5px;
+}
+
+.input-picture {
+  border-radius: 5px;
+}
+
+#van-picture {
+  border-radius: 5px;
+  color: purple;
+}
+
+.title-add {
+  font-family: $default-font;
+}
+
+.label-file {
+    cursor: pointer;
+    color: #00b1ca;
+    font-weight: bold;
+}
+
+.label-file:hover {
+    color: #25a5c4;
+}
+
+// et on masque le input
+.input-file {
+    display: none;
+}

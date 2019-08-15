@@ -12,7 +12,7 @@ class Owner::RentsController < ApplicationController
     
     redirect_to owner_dashboard_path
   end
-
+  
   private
 
   def set_rent

@@ -21,7 +21,7 @@ class RentsController < ApplicationController
       redirect_to van_path(@van)
     end
   end
-  
+
   private
 
   def set_van

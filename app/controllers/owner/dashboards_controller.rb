@@ -1,6 +1,9 @@
 class Owner::DashboardsController < ApplicationController
   def show
     @vans = current_user.vans
-    @rents = Rent.select { |rent| rent.van.owner == current_user }
+    @rents = current_user.owner_rents.order("created_at DESC")
+    @pending = @rents.where(state: 'pending')
+    @accepted = @rents.where(state: 'accepted')
+    @declined = @rents.where(state: 'declined')
   end
 end

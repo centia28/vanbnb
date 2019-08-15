@@ -18,3 +18,18 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   }
 }
+
+.home-content {
+  margin: 0 30px;
+  display: flex;
+  align-items: space-around;
+}
+
+.home-info {
+  padding: 30px;
+}
+
+.home-btn {
+  padding: 30px;
+  padding-top: 40px;
+}

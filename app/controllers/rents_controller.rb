@@ -5,6 +5,8 @@ class RentsController < ApplicationController
   end
 
   def show
+    @rent = Rent.find(params[:id])
+    @van  = @rent.van
   end
 
   def create

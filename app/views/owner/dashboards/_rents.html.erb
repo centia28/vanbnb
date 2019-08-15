@@ -1,0 +1,27 @@
+<% rents.each do |rent| %>
+  <ul class="list-group">
+    <li class="list-group-item-dashboard card-product">
+      <div class="image-rent">
+      <%= cl_image_tag rent.van.picture, height: 300, width: 300, crop: :fill %>
+      </div>
+      <div class="card-product-infos card-van-dashboard">
+        <div class="card-van-dashboard-infos">
+          <div class="info-traveler-dashboard">
+            <%= cl_image_tag rent.traveler.picture, height: 100, width: 100, crop: :fill, gravity: :face, class: "avatar-bordered avatar-bordered-dashboard", alt: "avatar-bordered" %>
+            <p class="m-0 text-center"><%= rent.traveler.first_name %></p>
+          </div>
+          <p class="m-0"><%= rent.begin_date.to_formatted_s(:short) %> / <%= rent.end_date.to_formatted_s(:long) %></p>
+          <p class="m-0"><%= rent.total_price %> €</p>
+        </div>
+        <div class="text-right card-van-dashboard-status">
+          <% if rent.state == "pending" %>
+            <%= link_to "Accept", accept_owner_rent_path(rent), method: :patch, class: "btn btn-success" %>
+            <%= link_to "Decline", decline_owner_rent_path(rent), method: :patch, class: "btn btn-danger" %>
+          <% else %>
+            <%= rent.state %>
+          <% end %>
+        </div>
+      </div>
+    </li>
+  </ul>
+<% end %>

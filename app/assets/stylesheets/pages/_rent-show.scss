@@ -1,0 +1,39 @@
+.rent-card {
+  border-radius: 5px;
+  background-color: white;
+  margin: 16px;
+  padding: 30px;
+  height: 675px;
+}
+
+.titre-rent-card {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.picture-rent-card {
+  position: static;
+  left: 0px;
+  width: 50%;
+}
+
+.text-rent-card {
+  position: static;
+  right: 0px;
+  width: 50%;
+}
+
+.option-card-rent-card {
+  display: flex;
+  align-items: center;
+}
+
+.pink-text-rent-card {
+  color: #FF595E;
+  margin-bottom: 200px;
+}
+
+#total-price-rent {
+  font-size: larger;
+  font-weight: bolder;
+}

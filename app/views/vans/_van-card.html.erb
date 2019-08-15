@@ -1,5 +1,6 @@
 <div class="card-van">
   <%= cl_image_tag van.picture, width: 400, height: 400, crop: 'fill' %>
+  <span class="card-van-pricing"><%= van.price_per_day %>€</span>
 
   <div class="card-van-infos">
     <h2><%= van.title %></h2>
@@ -8,7 +9,6 @@
 
     <div class="card-infos">
       <p><%= van.brand %> <%= van.model %></p>
-      <h2 class="card-van-pricing"><%= van.price_per_day %>€/day</h2>
     </div>
 
   </div>

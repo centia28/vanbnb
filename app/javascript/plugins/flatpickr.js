@@ -21,7 +21,7 @@ if (range_end){
     dateFormat: "Y-m-d",
     minDate: "today",
     onChange: function(selectedDates, dateStr, instance) {
-      list_end_fp.set('minDate', selectedDates.pop());
+      list_end_fp.set('minDate', selectedDates.pop()+1);
     }
   });
 }
@@ -49,7 +49,7 @@ if (start){
     minDate: "today",
     disable: unav_dates,
     onChange: function(selectedDates, dateStr, instance) {
-      end_fp.set('minDate', selectedDates.pop());
+      end_fp.set('minDate', selectedDates.pop().fp_incr(1));
     }
   });
 }

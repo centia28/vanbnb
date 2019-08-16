@@ -22,4 +22,12 @@ class Van < ApplicationRecord
 
     rents.all? { |rent| rent.begin_date >= end_date && rent.end_date <= start_date }
   end
+
+
+  # include PgSearch
+  # pg_search_scope :search_by_address,
+  #   against: [ :address],
+  #   using: {
+  #     tsearch: { prefix: true } # <-- now `superman batm` will return something!
+  #   }
 end

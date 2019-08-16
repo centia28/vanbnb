@@ -31,11 +31,11 @@
         <%= simple_form_for [@van,@rent] do |f| %>
 
           <div class="form-group row">
-            <%= f.input :begin_date, label: 'From', as: :string, required: false, input_html: {class: "rent_datepicker", id: "rent_start_date"} %>
+            <%= f.input :begin_date, label: 'From', as: :string, required: false, input_html: {class: "rent_datepicker", id: "rent_start_date", value: params[:rent][:begin_date]} %>
           </div>
 
           <div class="form-group row">
-            <%= f.input :end_date, label: 'To', as: :string, required: false, input_html: {class: "rent_datepicker", id: "rent_end_date"} %>
+            <%= f.input :end_date, label: 'To', as: :string, required: false, input_html: {class: "rent_datepicker", id: "rent_end_date", value: params[:rent][:end_date]} %>
           </div>
 
           <div class="form-group row buttons">

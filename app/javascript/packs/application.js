@@ -1,5 +1,7 @@
 import "bootstrap";
 import "../plugins/flatpickr"
+import "flatpickr/dist/themes/airbnb.css"
+
 import {initAutocomplete} from '../plugins/init_autocomplete'
 
 import { initUpdateTotalPriceOnRangeDateChange } from '../pages/rent';

@@ -2,13 +2,13 @@ class VansController < ApplicationController
   skip_before_action :authenticate_user!
 
   def index
-    if params[:search]
-      q = params[:search]
-      # TODO Stronger verification her
-      begin_date = !q[:begin_date].empty? ? Date.parse(q[:begin_date]) : Date.today
-      end_date = !q[:end_date].empty? ? Date.parse(q[:end_date]) : Date.today
+    @vans = Van.all
+    return @vans unless params[:search]
 
-      @vans = Van.select { |van| van.available?(begin_date: begin_date, end_date: end_date) }
+    q = params[:search]
+
+    if q[:end_date] != '' && q[:end_date] != ""
+      @vans = Van.select { |van| van.available?(end_date: Date.parse(q[:end_date]), begin_date: Date.parse(q[:begin_date])) }
     else
       @vans = Van.all
     end
@@ -17,5 +17,11 @@ class VansController < ApplicationController
   def show
     @van = Van.find(params[:id])
     @rent = Rent.new
+    @unavailable_dates = @van.rents.map do |rent|
+      {
+        from: rent.begin_date,
+        to: rent.end_date
+      }
+    end
   end
 end

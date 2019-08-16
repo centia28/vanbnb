@@ -4,11 +4,13 @@ class Owner::VansController < ApplicationController
   end
 
   def create
-    van = Van.new(vans_params)
-    van.owner = current_user
-    van.save
-
-    redirect_to owner_dashboard_path
+    @van = Van.new(vans_params)
+    @van.owner = current_user
+    if @van.save
+      redirect_to owner_dashboard_path
+    else
+      render :new
+    end
   end
 
   private

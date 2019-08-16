@@ -2,4 +2,51 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 16px;
+	font-family: $default-font;
+}
+
+.rents-dashboard{
+	margin-bottom: 100px;
+	font-family: $default-font;
+}
+
+.title-dashboard {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: $default-font;
+}
+
+.title-dashboard h2 {
+	position: fixed;
+	font-family: $default-font;
+}
+
+.earn {
+	padding-top: 30px;
+	font-family: $default-font;
+	color: $green;
+}
+
+
+.title-dashboard-with-button .btn {
+	height: 100%;
+	font-family: $default-font;
+}
+.title-dashboard-with-button h2 {
+	padding-bottom: 20px; 
+	font-family: $default-font;
+}
+
+.tabs {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 10px;
+  font-family: $default-font;
+}
+
+
+.my-vans {
+	margin-bottom: 30px;
 }

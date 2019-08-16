@@ -7,9 +7,13 @@
 .render {
   margin-top: 6px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 0px
 }
 .log-title h1 {
   color: black;
   text-shadow: none;
+}
+.render {
+  color: black;
 }

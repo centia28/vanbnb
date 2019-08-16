@@ -12,38 +12,38 @@ User.destroy_all
 
 puts 'Creating Users...'
 bastien = User.new(
-  first_name: "Bastien", 
-  last_name: 'Moinard', 
-  email: 'bast.moinard@gmail.com', 
+  first_name: "Bastien",
+  last_name: 'Moinard',
+  email: 'bast.moinard@gmail.com',
   password: 'azerty',
-  phone_number: "06 56 43 93 13", 
+  phone_number: "06 56 43 93 13",
   picture: File.open(Rails.root.join('db/fixtures/users/Bastien.jpg')))
 bastien.save!
 
 nassim = User.new(
-  first_name: "Nassim", 
-  last_name: 'Bouskia', 
-  email: 'nassim.bouskia@gmail.com', 
+  first_name: "Nassim",
+  last_name: 'Bouskia',
+  email: 'nassim.bouskia@gmail.com',
   password: 'azerty',
-  phone_number: "06 44 30 10 20", 
+  phone_number: "06 44 30 10 20",
   picture: File.open(Rails.root.join('db/fixtures/users/Nassim.jpg')))
 nassim.save!
 
 nina = User.new(
-  first_name: "Nina", 
-  last_name: 'Tchalla', 
-  email: 'nina.tchalla@gmail.com', 
+  first_name: "Nina",
+  last_name: 'Tchalla',
+  email: 'nina.tchalla@gmail.com',
   password: 'azerty',
-  phone_number: "06 93 75 91 77", 
+  phone_number: "06 93 75 91 77",
   picture: File.open(Rails.root.join('db/fixtures/users/Nina.jpg')))
 nina.save!
 
 axel = User.new(
-  first_name: "Axel", 
-  last_name: 'Prevoteaux', 
-  email: 'axel.prevoteaux@gmail.com', 
+  first_name: "Axel",
+  last_name: 'Prevoteaux',
+  email: 'axel.prevoteaux@gmail.com',
   password: 'azerty',
-  phone_number: "06 02 55 18 35", 
+  phone_number: "06 02 55 18 35",
   picture: File.open(Rails.root.join('db/fixtures/users/Axel.jpg')))
 axel.save!
 puts 'Finish creating users'
@@ -52,131 +52,161 @@ puts 'Finish creating users'
 
 puts 'Creating vans...'
 # Axel
-joker = Van.create!(
-  title: 'Super van', 
-  description: "Nous proposons de vous louer Francis. Nous avons déjà eu le plaisir de voyager avec notre chienne à bord de ce véhicule.",
-  brand: "Volkswagen", 
-  model: "T3 joker", 
-  price_per_day: 60, 
-  picture: File.open(Rails.root.join('db/fixtures/vans/T3joker.webp')), 
-  address: "Boulevard Stalingrad, Nantes 44300", 
+kombi1 = Van.create!(
+  title: 'Old Kombi car',
+  description: "Have a nice ride in this old but confortable car.",
+  brand: "Volkswagen",
+  model: "Kombi",
+  price_per_day: 60,
+  picture: File.open(Rails.root.join('db/fixtures/vans/kombi1.jpg')),
+  address: "Boulevard Stalingrad, Nantes 44300",
   owner: axel)
 
-stylevan = Van.create!(
-  title: "Van pratique",
-  description: "Nous proposons notre Van flambant neuf Stylevan sur base Peugeot expert 180ch boîte automatique et grip contrôle pour prendre du plaisir dès le début de votre road trip.",
-  brand: "Peugeot",
-  model: "Stylevan Boréal IV",
+vw1 = Van.create!(
+  title: "Authentic Volkswagen T1",
+  description: "Have a unique expérience with this nice Volkswagen T1 Bus from 1961.",
+  brand: "Volkswagen",
+  model: "T1",
   price_per_day: 90,
-  picture: File.open(Rails.root.join('db/fixtures/vans/Stylevan.webp')), 
+  picture: File.open(Rails.root.join('db/fixtures/vans/vw1.jpg')),
   address: "Place Saint Félix, Nantes 44300",
   owner: axel)
 
 poss = Van.create!(
-  title: "Economique et confortable",
-  description: "Notre van est idéal pour voyager à 4 en famille grâce à son toit relevable et son couchage en bas une fois la banquette allongée.",
+  title: "Green van",
+  description: "Ideal van for family vacations, very confortable.",
   brand: "Citroen",
   model: "Possl Compster",
   price_per_day: 64,
-  picture: File.open(Rails.root.join('db/fixtures/vans/Possl.jpg')), 
+  picture: File.open(Rails.root.join('db/fixtures/vans/green1.jpg')),
   address: "Chemin de Bonneville, Nantes 44300",
   owner: axel)
 
+yellow = Van.create!(
+  title: "Yellow kitty",
+  description: "Ideal van for family vacations, very confortable.",
+  brand: "Volkswagen",
+  model: "Possl Compster",
+  price_per_day: 46,
+  picture: File.open(Rails.root.join('db/fixtures/vans/yellow.jpg')),
+  address: "Boulevard des poilus, Nantes 44300",
+  owner: axel)
 
 # Nina
 bay = Van.create!(
   title: "Old school classic",
-  description: "Bonjour, Si vous souhaitez un voyage dans les 70’s, une belle expérience et un dépaysement total, nous vous proposons à la location notre combi VOLKSWAGEN T2B Bay Window, équipé Westfalia, 1.6 essence, de 1974, se prénommant GiGi.",
+  description: "Gigi is an old shcool Volkswagen combi",
   brand: "Volkswagen",
   model: "T2B Bay window Westfalia",
   price_per_day: 65,
-  picture: File.open(Rails.root.join('db/fixtures/vans/T2B.webp')), 
+  picture: File.open(Rails.root.join('db/fixtures/vans/vw2.jpg')),
   address: "Rue des columières, Nantes 44300",
   owner: nina)
 
 marco = Van.create!(
-  title: "Chique",
-  description: "Nous vous proposons de vous évadez à bord de notre Vito Marco Polo. Parfaitement adapté pour un weekend au soleil ou un road trip de plusieurs semaines.",
-  brand: "Mercedes",
+  title: "Chique red van",
+  description: "This 'chic' Vito Marco Polo will be perfect for a weekend",
+  brand: "Volkswagen",
   model: "Viano Marco Polo",
   price_per_day: 72,
-  picture: File.open(Rails.root.join('db/fixtures/vans/viano.webp')), 
+  picture: File.open(Rails.root.join('db/fixtures/vans/red1.jpg')),
   address: "Rue Félibien, Nantes 44300",
   owner: nina)
 
 vivaro = Van.create!(
   title: "Mini camping car",
-  description: "Ce mini camping car vous emmènera partout où vous le souhaitez. Il passe aisément sous les barres de 2 m voire moins et se gare facilement. Il est équipé d'un porte 2 vélos, d'une kitchenette avec évier et feu, d'un frigo, d'une USB chargeur de téléphone et de bloc de rangements.",
+  description: "This mini camping car will take you whereever you want.",
   brand: "Opel",
   model: "Vivaro",
   price_per_day: 60,
-  picture: File.open(Rails.root.join('db/fixtures/vans/vivaro.webp')), 
+  picture: File.open(Rails.root.join('db/fixtures/vans/red2.jpg')),
   address: "Boulevard Paul Chabas, Nantes 44300",
+  owner: nina)
+
+bus = Van.create!(
+  title: "Golden bus",
+  description: "This mini bus car will take you whereever you want.",
+  brand: "Volkswagen",
+  model: "Vivaro",
+  price_per_day: 90,
+  picture: File.open(Rails.root.join('db/fixtures/vans/bus.jpg')),
+  address: "Rond point de Paris, Nantes 44300",
   owner: nina)
 
 
 # Bastien
 trafic = Van.create!(
-  title: "Petit fourgon douillé",
-  description: "Ce petit fourgon aménagé permet de passer sous les barrières et de se rendre au coeur des lieux les plus insolites tout en restant en classe 1 sur l'autoroute.",
-  brand: "Renault",
+  title: "Perfect road trip van",
+  description: "This van will be you best friend on the road.",
+  brand: "Volkswagen",
   model: "Trafic",
   price_per_day: 65,
-  picture: File.open(Rails.root.join('db/fixtures/vans/trafic.webp')), 
+  picture: File.open(Rails.root.join('db/fixtures/vans/green2.jpg')),
   address: "Place gralin, Nantes 44300",
   owner: bastien)
 
 california = Van.create!(
-  title: "Petit van pour 4",
-  description: "Idéal de 2 à 4 personnes, ce california de 2018 est flambant neuf. (avril 2018, - 20 000 km) C'est un VAN, et donc il passe quasiment partout comme une voiture.",
+  title: "Sweet maleny",
+  description: "Ideal for two to four people, this van is also sweeted for weddings.",
   brand: "Volkswagen",
   model: "California",
   price_per_day: 70,
-  picture: File.open(Rails.root.join('db/fixtures/vans/california.webp')), 
+  picture: File.open(Rails.root.join('db/fixtures/vans/blue1.jpg')),
   address: "St Donatien-Malakoff, Nantes 44300",
   owner: bastien)
 
 combi = Van.create!(
-  title: "Envie de faire un week end dépaysant dans un univers année 70",
-  description: "Bonjour, Notre Van est très fonctionnel. Idéal pour deux personnes. Permet d'être en autonomie totale avec l'eau, l'ectricité, le réfrigérateur (une partie congélateur) et les plaques de cuisson pendant pratiquement une semaine sans démarrer le véhicule grâce à deux grosses batteries auxiliaires",
+  title: "Retro combi",
+  description: "Meet my white retro van. Perfet for cosy weekend with friends.",
   brand: "Volkswagen",
   model: "Combi",
   price_per_day: 65,
-  picture: File.open(Rails.root.join('db/fixtures/vans/combi.jpg')), 
+  picture: File.open(Rails.root.join('db/fixtures/vans/white1.jpg')),
   address: "Le Rocher d'Enfer, Nantes 44300",
   owner: bastien)
 
 
 #Nassim
 transporter = Van.create!(
-  title: "Confort et mobile",
-  description: " Tres economique turbo diesel grâce sa hauteur 1.9 metres vous permet acces bord de plage .super marche .prix peage classe 1 comme une voiture  grace a sa taille possible de se garer n importe ou  il est considere comme une voiture particuliere",
+  title: "Confort van",
+  description: "Very economic van to go on raod or to the beach.",
   brand: "Volkswagen",
   model: "Transporter T5",
   price_per_day: 50,
-  picture: File.open(Rails.root.join('db/fixtures/vans/transporterT5.webp')), 
+  picture: File.open(Rails.root.join('db/fixtures/vans/red3.jpg')),
   address: "Rue des Landes, Nantes 44300",
   owner: nassim)
 
 renault = Van.create!(
-  title: "Neuf",
-  description: "A louer van aménagé sur Renault Trafic 2017 1.6L dCi 125 cv twin turbo avec Start&Stop. Peinture gris platine métallisé. Châssis H1L1 : longueur 4m99, largeur 1m96, hauteur 1m99. 5 places assises et 4 couchages.",
+  title: "Love and peace",
+  description: "Coloured van to go on the road.",
   brand: "Renault",
   model: "Trafic 2018",
   price_per_day: 60,
-  picture: File.open(Rails.root.join('db/fixtures/vans/trafic2018.webp')), 
+  picture: File.open(Rails.root.join('db/fixtures/vans/coloured.jpg')),
   address: "Île de Nantes, Nantes 44200",
   owner: nassim)
 
 vito = Van.create!(
-  title: "Confort et mobile",
-  description: "Son look discret et ces petites dimensions vous permettent de passer partout (accès sous toutes les barres de parking car hauteur - de 2 mètres) et les péages sont au même prix qu'une voiture.",
+  title: "Go green!!",
+  description: "Very discret and cosy. Have a nice time with our confortable.",
   brand: "Mercedes",
   model: "Vito Marco Polo 2000",
   price_per_day: 58,
-  picture: File.open(Rails.root.join('db/fixtures/vans/vito.webp')), 
+  picture: File.open(Rails.root.join('db/fixtures/vans/green3.jpg')),
   address: "Rue Général Buat, Nantes 44000",
   owner: nassim)
+
+vito2 = Van.create!(
+  title: "Luxirious mercedes!!",
+  description: "Get VIP in this luxirious mercedes van.",
+  brand: "Mercedes",
+  model: "Curbed",
+  price_per_day: 100,
+  picture: File.open(Rails.root.join('db/fixtures/vans/mercedes.jpg')),
+  address: "Gare sud, Nantes 44000",
+  owner: nassim)
+
 puts 'Finished creating vans'
 
 ######################################################
@@ -186,37 +216,37 @@ puts "Creating rents..."
 rent_nina = Rent.create!(
   begin_date: "2019-08-12",
   end_date: "2019-08-14",
-  van: joker,
+  van: kombi1,
   traveler: nina,
   state: "accepted",
-  total_price: "120€",
+  total_price: "120",
   )
 
 rent_bastien = Rent.create!(
   begin_date: "2019-08-15",
   end_date: "2019-08-17",
-  van: stylevan,
+  van: bus,
   traveler: bastien,
   state: "accepted",
-  total_price: "270€",
+  total_price: "180",
   )
 
 rent_nassim = Rent.create!(
   begin_date: "2019-08-12",
   end_date: "2019-08-13",
-  van: poss,
+  van: california,
   traveler: axel,
   state: "declined",
-  total_price: "64€",
+  total_price: "70",
   )
 
 second_rent_nina = Rent.create!(
   begin_date: "2019-08-12",
-  end_date: "2019-07-21",
-  van: stylevan,
+  end_date: "2019-08-21",
+  van: vito,
   traveler: nina,
   state: "pending",
-  total_price: "810€",
+  total_price: "522",
   )
 
 puts "Finished creating rents"

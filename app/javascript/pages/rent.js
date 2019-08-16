@@ -8,7 +8,7 @@ const start = document.getElementById('rent_start_date');
 const end = document.getElementById('rent_end_date');
 
 const duration = (from, to) => {
-  const dur = Math.ceil((Date.parse(to) - Date.parse(from)) / (1000 * 60 * 60 * 24)) + 1;
+  const dur = Math.ceil((Date.parse(to) - Date.parse(from)) / (1000 * 60 * 60 * 24));
   return dur
 };
 

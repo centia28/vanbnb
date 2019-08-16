@@ -8,29 +8,29 @@
     <%= simple_form_for [:owner, @van] do |f| %>
       <div class="row mt-2 form-add-van">
         <div class="col-md-6 offset-md-3 input-form">
-          <div class="card px-2 my-2 remove-border">
-            <%= f.input :title, required: false %>
+          <div class=" px-2 my-2 remove-border">
+            <%= f.input :title, required: false, input_html: { class: "background-color-add" } %>
           </div>
-          <div class="card px-2 my-2 remove-border">
-            <%= f.input :description, required: false %>
+          <div class=" px-2 my-2 remove-border">
+            <%= f.input :description, required: false, input_html: { class: "background-color-add" } %>
           </div>
-          <div class="card px-2 my-2 remove-border">
-            <%= f.input :price_per_day, required: false %>
+          <div class=" px-2 my-2 remove-border">
+            <%= f.input :price_per_day, required: false, input_html: { class: "background-color-add" } %>
           </div>
-          <div class="card px-2 my-2 remove-border">
-            <%= f.input :model, required: false %>
+          <div class=" px-2 my-2 remove-border">
+            <%= f.input :model, required: false, input_html: { class: "background-color-add" } %>
           </div>
-          <div class="card px-2 my-2 remove-border">
-            <%= f.input :brand, required: false %>
+          <div class=" px-2 my-2 remove-border">
+            <%= f.input :brand, required: false, input_html: { class: "background-color-add" } %>
           </div>
-          <div class="card px-2 my-2 remove-border">
-            <%= f.input :address %>
+          <div class=" px-2 my-2 remove-border">
+            <%= f.input :address, input_html: { class: "background-color-add" } %>
           </div>
-          <div class="card px-2 my-2 remove-border">
-            <%= f.input :picture, label_html: { class: "btn btn-primary input-picture" }, input_html: { class: "input-file" } %>
+          <div class=" px-2 my-2 remove-border smaller-div-input">
+            <%= f.input  :picture, label_html: { class: "btn btn-primary input-picture" }, input_html: { class: "input-file" }, label: 'Add Picture' %>
             <%= f.input :picture_cache, as: :hidden %>
           </div>
-          <%= f.submit 'create van', class: 'btn btn-add-van'%>
+          <%= f.submit 'Create van', class: 'btn btn-add-van'%>
         </div>
       </div>
     <% end %>

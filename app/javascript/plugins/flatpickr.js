@@ -49,7 +49,7 @@ if (start){
     minDate: "today",
     disable: unav_dates,
     onChange: function(selectedDates, dateStr, instance) {
-      end_fp.set('minDate', selectedDates.pop());
+      end_fp.set('minDate', selectedDates.pop().fp_incr(1));
     }
   });
 }

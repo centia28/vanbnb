@@ -50,3 +50,16 @@
 .my-vans {
 	margin-bottom: 30px;
 }
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: $ligth-pink;
+}
+
+li a {
+  color: $ligth-pink;
+}
+// .nav-pink {
+//   background-color: $ligth-pink;
+//   color: white;
+// }

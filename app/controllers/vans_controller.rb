@@ -2,7 +2,8 @@ class VansController < ApplicationController
   skip_before_action :authenticate_user!
 
   def index
-    @vans = Van.all unless params[:search]
+    @vans = Van.all
+    return @vans unless params[:search]
 
     q = params[:search]
 

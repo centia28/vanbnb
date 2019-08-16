@@ -5,9 +5,15 @@
 .form-add-van {
   padding-top: 20px;
 }
+
+.background-color-add {
+  background-color: rgba(117, 128, 137, 0.05);
+  border: none;
+  
+}
 .input-form {
   font-family: $default-font;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
   background-color: white;
   opacity: 0.95;
   padding-top: 20px;
@@ -18,6 +24,17 @@
 
 .remove-border {
   border: 0px;
+  // box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #333333;
+  font-family: $default-font;
+  font-weight: 300;
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-right: 0;
+  padding-bottom: 1rem;
+  padding-left: 0;
 }
 
 
@@ -27,8 +44,8 @@
 }
 .btn-add-van{
   position: absolute;
-  right: 25px;
-  bottom: 20px;
+  right: 45px;
+  bottom: 46px;
   background-color: $ligth-pink;
   color: white;
   border-radius: 5px;
@@ -36,6 +53,9 @@
 
 .input-picture {
   border-radius: 5px;
+  position: absolute;
+  bottom: 35px;
+  cursor: pointer;
 }
 
 #van-picture {
@@ -47,6 +67,8 @@
   font-family: $default-font;
 }
 
+
+// Label add picture
 .label-file {
     cursor: pointer;
     color: #00b1ca;
@@ -57,7 +79,11 @@
     color: #25a5c4;
 }
 
-// et on masque le input
 .input-file {
     display: none;
+}
+
+
+.smaller-div-input {
+  height: 80px;
 }

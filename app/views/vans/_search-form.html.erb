@@ -1,19 +1,26 @@
-<%= simple_form_for :search, method: :get do |f| %>
-  <div class="form-row">
+<%= simple_form_for :search, url: vans_path, method: :get do |f| %>
+  <div class="col-lg-8 col-md-7 col-sm-6 p-0">
+    <div class="row">
 
-    <div class="form-group col-md-3">
-      <%= f.input :begin_date, label: 'From', as: :string, required: false, input_html: {class: 'datepicker', id: "range_start"} %>
-    </div>
+      <div class="search__bar_item searchBar_item--when">
+        <div class="d-flex" style="height: 30px;">
+          <div class="search_when search_when_date_from">
+            <%= f.input :begin_date, label: false, as: :string, required: false, placeholder: 'From', input_html: {id: "range_start", value: params[:search][:begin_date]} %>
+          </div>
 
-    <div class="form-group col-md-3">
-      <%= f.input :end_date, label: 'To', as: :string, required: false, input_html: {class: 'datepicker', id: "range_end"} %>
-    </div>
+          <div class="search_when search_when_sep"></div>
 
-    <div class="form-group col-md-3 buttons">
-      <button name="button" type="submit" class="btn btn-light-pink">
-        <i class="fas fa-search"></i> Search
-      </button>
-      <%= link_to 'All vans', vans_path, class: "btn btn-light-pink" %>
+          <div class="search_when search_when_date_to">
+            <%= f.input :end_date, label: false, as: :string, required: false, placeholder: 'To', input_html: {id: "range_end", value: params[:search][:end_date]} %>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="searchBar_item--submit">
+        <%= f.submit :Search, class: 'btn btn-light-pink' %>
+      </div>
     </div>
   </div>
 <% end %>

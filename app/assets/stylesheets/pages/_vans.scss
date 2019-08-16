@@ -1,19 +1,48 @@
-.search-container{
-  margin: 16px auto;
-
-  .buttons{
-    margin-top: 32px;
-  }
-}
 .vans-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   padding: 4px;
+  box-sizing: border-box;
 }
 .van > a:hover{
   text-decoration: none;
 }
+.van-list{
+  padding-top: 15px;
+
+
+  .container {
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .row{
+    margin: 0;
+  }
+
+  .search__bar{
+    // background-color: rgba(255,255,255,.8);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+}
+.search-container{
+ .search__bar{
+    border-radius: 3px;
+    align-self: flex-start;
+    padding: 10px 10px 10px 0;
+  }
+  .search__bar_item{
+    background: hsla(0,0%,100%,.8);
+    margin-right: 4px;
+  }
+}
+
+
+
 
 // Show
 #unav_dates{

@@ -62,6 +62,8 @@ kombi1 = Van.create!(
   address: "Boulevard Stalingrad, Nantes 44300",
   owner: axel)
 
+sleep(1)
+
 vw1 = Van.create!(
   title: "Authentic Volkswagen T1",
   description: "Have a unique expérience with this nice Volkswagen T1 Bus from 1961.",
@@ -71,6 +73,7 @@ vw1 = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/vw1.jpg')),
   address: "Place Saint Félix, Nantes 44300",
   owner: axel)
+sleep(1)
 
 poss = Van.create!(
   title: "Green van",
@@ -81,6 +84,7 @@ poss = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/green1.jpg')),
   address: "Chemin de Bonneville, Nantes 44300",
   owner: axel)
+sleep(1)
 
 yellow = Van.create!(
   title: "Yellow kitty",
@@ -91,6 +95,7 @@ yellow = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/yellow.jpg')),
   address: "Boulevard des poilus, Nantes 44300",
   owner: axel)
+sleep(1)
 
 # Nina
 bay = Van.create!(
@@ -102,6 +107,7 @@ bay = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/vw2.jpg')),
   address: "Rue des columières, Nantes 44300",
   owner: nina)
+sleep(1)
 
 marco = Van.create!(
   title: "Chique red van",
@@ -112,6 +118,7 @@ marco = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/red1.jpg')),
   address: "Rue Félibien, Nantes 44300",
   owner: nina)
+sleep(1)
 
 vivaro = Van.create!(
   title: "Mini camping car",
@@ -122,6 +129,7 @@ vivaro = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/red2.jpg')),
   address: "Boulevard Paul Chabas, Nantes 44300",
   owner: nina)
+sleep(1)
 
 bus = Van.create!(
   title: "Golden bus",
@@ -132,6 +140,7 @@ bus = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/bus.jpg')),
   address: "Rond point de Paris, Nantes 44300",
   owner: nina)
+sleep(1)
 
 
 # Bastien
@@ -144,6 +153,7 @@ trafic = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/green2.jpg')),
   address: "Place gralin, Nantes 44300",
   owner: bastien)
+sleep(1)
 
 california = Van.create!(
   title: "Sweet maleny",
@@ -154,6 +164,7 @@ california = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/blue1.jpg')),
   address: "St Donatien-Malakoff, Nantes 44300",
   owner: bastien)
+sleep(1)
 
 combi = Van.create!(
   title: "Retro combi",
@@ -164,7 +175,7 @@ combi = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/white1.jpg')),
   address: "Le Rocher d'Enfer, Nantes 44300",
   owner: bastien)
-
+sleep(1)
 
 #Nassim
 transporter = Van.create!(
@@ -176,6 +187,7 @@ transporter = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/red3.jpg')),
   address: "Rue des Landes, Nantes 44300",
   owner: nassim)
+sleep(1)
 
 renault = Van.create!(
   title: "Love and peace",
@@ -186,6 +198,7 @@ renault = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/coloured.jpg')),
   address: "Île de Nantes, Nantes 44200",
   owner: nassim)
+sleep(1)
 
 vito = Van.create!(
   title: "Go green!!",
@@ -196,6 +209,7 @@ vito = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/green3.jpg')),
   address: "Rue Général Buat, Nantes 44000",
   owner: nassim)
+sleep(1)
 
 vito2 = Van.create!(
   title: "Luxirious mercedes!!",
@@ -206,6 +220,7 @@ vito2 = Van.create!(
   picture: File.open(Rails.root.join('db/fixtures/vans/mercedes.jpg')),
   address: "Gare sud, Nantes 44000",
   owner: nassim)
+sleep(1)
 
 puts 'Finished creating vans'
 

@@ -6,8 +6,10 @@ class RentsController < ApplicationController
   end
 
   def show
-    @rent = Rent.find(params[:id])
-    @van  = @rent.van
+    @rent    = Rent.find(params[:id])
+    @van     = @rent.van
+
+    @markers = [{ lat: @van.latitude, lng: @van.longitude }]
   end
 
   def create

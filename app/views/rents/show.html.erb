@@ -1,34 +1,33 @@
-<div class="rent-card">
-  <div class="titre-rent-card">
-    <h1>Rent details</h1>
+<div class="rent-container">
+
+  <div class="rent-details">
+    <div class="title-rent">
+      <h2>Details of your rent</h2>
+    </div>
+    <div class="image">
+      <%= cl_image_tag(@van.picture) %>
+      <span class="state-rent"> <%= @rent.state %> </span>
+    </div>
+    <div class="rent-info">
+      <div class="date-rent">
+        <p>
+          <%= @rent.begin_date.to_formatted_s(:short) %> - <%= @rent.end_date.to_formatted_s(:short) %>.
+        </p>
+      </div>
+      <div class="van-title-rent">
+        <h4><%= @van.title %></h4>
+      </div>
+      <div class="address-rent">
+        <p><%= @van.address %></p>
+      </div>
+    </div>
   </div>
-  <div class="option-card-rent-card">
-    <div class="picture-rent-card">
-      <%= cl_image_tag(@van.picture,
-      width: 400, height: 300, crop: :fill) %>
-    </div>
-    <div class="text-rent-card">
-      <div class="date-rent-card">
-        <p> <span class="pink-text-rent-card">date: </span> <%= @rent.begin_date.strftime('%d-%m-%Y') %> / <%= @rent.end_date.strftime('%d-%m-%Y') %></p>
-      </div>
-      <div class="remaining-day-rent-card">
-        <p><% time_remain = @rent.end_date - @rent.begin_date %>
-        <span class="pink-text-rent-card">Remaining day: </span> <%= time_remain.to_i %></p>
-      </div>
-      <div class="price-rent-card">
-        <p><span id="total-price-rent" class="pink-text-rent-card">Total price: </span> <%= @rent.total_price %></p>
-      </div>
-    </div>
+
+  <div
+    id="map"
+    data-markers="<%= @markers.to_json %>"
+    data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
+  >
+
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-

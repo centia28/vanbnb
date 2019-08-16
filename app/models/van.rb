@@ -8,7 +8,7 @@ class Van < ApplicationRecord
   has_many :rents
 
   validates :title, :description, :price_per_day, :model, :brand, presence: true
-  validates :description, length: { minimum: 15 }
+  validates :description, length: { minimum: 10 }
 
   def available?(date_range = {})
     # GUARD CLAUSE: compare on the today date if there is no range given

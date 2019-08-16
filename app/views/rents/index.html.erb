@@ -1,1 +1,11 @@
-<h1>List of my rents</h1>
+<div class="rents-container">
+  <h2 class="title d-inline">My Rents</h2>
+
+  <div class="rents">
+    <% @rents.each do |rent| %>
+      <div class="rent">
+        <%= link_to (render 'rent', rent: rent), rent_path(rent) %>
+      </div>
+    <% end %>
+  </div>
+</div>

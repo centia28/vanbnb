@@ -2,11 +2,11 @@
   <div class="form-row">
 
     <div class="form-group col-md-3">
-      <%= f.input :begin_date, label: 'From', as: :string, required: false, input_html: {id: "range_start"} %>
+      <%= f.input :begin_date, label: 'From', as: :string, required: false, input_html: {class: 'datepicker', id: "range_start"} %>
     </div>
 
     <div class="form-group col-md-3">
-      <%= f.input :end_date, label: 'To', as: :string, required: false, input_html: {id: "range_end"} %>
+      <%= f.input :end_date, label: 'To', as: :string, required: false, input_html: {class: 'datepicker', id: "range_end"} %>
     </div>
 
     <div class="form-group col-md-3 buttons">

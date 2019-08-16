@@ -1,0 +1,23 @@
+<%= simple_form_for :search, url: vans_path, method: :get do |f| %>
+
+  <div class="search__bar_item searchBar_item--when">
+    <label for="range_start">When?</label>
+    <div class="d-flex" style="height: 30px;">
+      <div class="search_when search_when_date_from">
+        <%= f.input :begin_date, label: false, as: :string, required: false, placeholder: 'From', input_html: {class: 'datepicker', id: "range_start"} %>
+      </div>
+
+      <div class="search_when search_when_sep"></div>
+
+      <div class="search_when search_when_date_to">
+        <%= f.input :end_date, label: false, as: :string, required: false, placeholder: 'To', input_html: {class: 'datepicker', id: "range_end"} %>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="search__bar_item searchBar_item--submit">
+    <%= f.submit :Search, class: 'btn btn-light-pink' %>
+  </div>
+<% end %>

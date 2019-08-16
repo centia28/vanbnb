@@ -20,6 +20,6 @@ class Van < ApplicationRecord
       end_date = Date.today
     end
 
-    rents.all? { |rent| rent.begin_date >= end_date && rent.end_date <= start_date }
+    rents.all? { |rent| rent.end_date < start_date && rent.begin_date > end_date }
   end
 end

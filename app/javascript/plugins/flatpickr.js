@@ -9,6 +9,7 @@ const range_start = document.getElementById('range_start');
 const range_end = document.getElementById('range_end');
 
 if (range_end){
+
   const list_end_fp = flatpickr(range_end, {
     altInput: true,
     altFormat: "F j, Y",
@@ -21,7 +22,7 @@ if (range_end){
     dateFormat: "Y-m-d",
     minDate: "today",
     onChange: function(selectedDates, dateStr, instance) {
-      list_end_fp.set('minDate', selectedDates.pop());
+      list_end_fp.set('minDate', selectedDates.pop().fp_incr(1));
     }
   });
 }

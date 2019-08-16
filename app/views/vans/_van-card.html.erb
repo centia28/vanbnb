@@ -1,14 +1,15 @@
 <div class="card-van">
-  <%= cl_image_tag van.picture %>
-  <span class="card-van-pricing"><%= van.price_per_day %>€</span>
+  <div class="card-top" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('<%= cl_image_path van.picture %>');">
+  </div>
 
   <div class="card-van-infos">
-    <h2><%= van.title %></h2>
+    <div class="card-infos-header">
+      <h2><%= van.title %></h2>
+      <p class="model"><%= van.brand %> <%= van.model %></p>
+    </div>
 
-    <%= cl_image_tag van.owner.picture, width: 40, height: 40, crop: 'fill', gravity: 'faces', class: "card-van-owner avatar-bordered" %>
-
-    <div class="card-infos">
-      <p><%= van.brand %> <%= van.model %></p>
+    <div class="card-price">
+      <strong><%= van.price_per_day %>€</strong>
     </div>
 
   </div>

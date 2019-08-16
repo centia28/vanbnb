@@ -1,9 +1,15 @@
-<div class="container">
+<div class="van-list">
   <div class="search-container">
-    <%= render 'search-form' %>
+    <div class="container">
+
+      <div class="search__bar">
+        <%= render 'search-form' %>
+      </div>
+
+    </div>
   </div>
 
-  <div class="vans-container">
+  <div class=" container vans-container">
     <% @vans.each do |van| %>
       <div class="van">
         <%= link_to (render 'van-card', van: van), van_path(van) %>

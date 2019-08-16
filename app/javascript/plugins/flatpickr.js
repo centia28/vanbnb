@@ -3,13 +3,12 @@ import "flatpickr/dist/themes/airbnb.css"
 import rangePlugin from "flatpickr/dist/plugins/rangePlugin"
 
 // Van list date picker
-flatpickr(".datepicker", {})
+// flatpickr(".datepicker", {})
 
 const range_start = document.getElementById('range_start');
 const range_end = document.getElementById('range_end');
 
 if (range_end){
-
   const list_end_fp = flatpickr(range_end, {
     altInput: true,
     altFormat: "F j, Y",

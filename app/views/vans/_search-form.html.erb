@@ -5,13 +5,13 @@
       <div class="search__bar_item searchBar_item--when">
         <div class="d-flex" style="height: 30px;">
           <div class="search_when search_when_date_from">
-            <%= f.input :begin_date, label: false, as: :string, required: false, placeholder: 'From', input_html: {class: 'datepicker', id: "range_start"} %>
+            <%= f.input :begin_date, label: false, as: :string, required: false, placeholder: 'From', input_html: {id: "range_start", value: params[:search][:begin_date]} %>
           </div>
 
           <div class="search_when search_when_sep"></div>
 
           <div class="search_when search_when_date_to">
-            <%= f.input :end_date, label: false, as: :string, required: false, placeholder: 'To', input_html: {class: 'datepicker', id: "range_end"} %>
+            <%= f.input :end_date, label: false, as: :string, required: false, placeholder: 'To', input_html: {id: "range_end", value: params[:search][:end_date]} %>
           </div>
         </div>
 

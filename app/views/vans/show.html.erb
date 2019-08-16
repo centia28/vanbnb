@@ -6,7 +6,8 @@
       </div>
       <!-- <div class="card__sale-flag">Available this week</div> -->
     </div>
-    <%= link_to "Go back to list", vans_path, class: 'back' %>
+
+    <%= link_to "Go back to list", vans_path(search: {begin_date: params.dig(:rent, :begin_date), end_date: params.dig(:rent, :end_date)}), class: 'back' %>
   </div>
 
   <div class="card__right">

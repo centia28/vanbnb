@@ -12,7 +12,7 @@
   <div class=" container vans-container">
     <% @vans.each do |van| %>
       <div class="van">
-        <%= link_to (render 'van-card', van: van), van_path(van, rent: {begin_date: params[:search][:begin_date], end_date: params[:search][:end_date]}) %>
+        <%= link_to (render 'van-card', van: van), van_path(van, rent: {begin_date: params.dig(:search, :begin_date), end_date: params.dig(:search, :end_date)}) %>
       </div>
     <% end %>
   </div>
